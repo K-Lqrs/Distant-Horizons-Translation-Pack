@@ -1,983 +1,984 @@
 {
   "distanthorizons.title":
-  "Distant Horizons",
+	"Distant Horizons",
 
 
-
+    
   "distanthorizons.general.true":
-  "有効",
+    "True",
   "distanthorizons.general.false":
-  "無効",
+    "False",
   "distanthorizons.general.yes":
-  "はい",
+    "Yes",
   "distanthorizons.general.no":
-  "いいえ",
+    "No",
   "distanthorizons.general.back":
-  "戻る",
+    "Back",
   "distanthorizons.general.next":
-  "次へ",
+    "Next",
   "distanthorizons.general.done":
-  "完了",
+    "Done",
   "distanthorizons.general.cancel":
-  "キャンセル",
+    "Cancel",
   "distanthorizons.general.reset":
-  "リセット",
+    "Reset",
 
 
 
 
   "distanthorizons.updater.title":
-  "Distant Horizons オートアップデーター",
+    "Distant Horizons auto updater",
   "distanthorizons.updater.text1":
-  "§l新しいアップデートがあります！",
+    "§lNew update available!",
   "distanthorizons.updater.text2":
-  "§f%s§f から %s§f にアップデートしますか？",
+    "§fDo you want to update from %s§f to %s§f?",
   "distanthorizons.updater.later":
-  "後で",
+    "Not now",
   "distanthorizons.updater.never":
-  "今後表示しない",
+    "Don't show again",
   "distanthorizons.updater.update":
-  "アップデート",
+    "Update",
   "distanthorizons.updater.update.@tooltip":
-  "1回限りのアップデートを行います\n（ゲーム終了時にアップデート）",
+    "Updates the mod this 1 time\n(Updates when game closed)",
   "distanthorizons.updater.silent":
-  "常にサイレントアップデート",
+    "Always silent update",
   "distanthorizons.updater.silent.@tooltip":
-  "アップデートがあるたびに自動でアップデートを行います\n(§6警告§r: ユーザーにはアップデート確認が表示されませんが、最新の状態が維持されます)",
+    "Every time an update is available, it would update\n(§6WARNING§r: It wont prompt the user on an update, tough it would keep the mod up to date)",
   "distanthorizons.updater.waitingForClose":
-  "ゲームが再起動されると、Distant Horizonsのアップデートが完了します",
+    "Distant Horizons will finish update once game restarts",
 
 
 
 
   "distanthorizons.config.title":
-  "Distant Horizons 設定",
+    "Distant Horizons config",
   "distanthorizons.config.client":
-  "クライアント",
+    "Client",
 
   "distanthorizons.config.client.quickEnableRendering":
-  "レンダリングを有効にする",
+    "Enable Rendering",
   "distanthorizons.config.client.quickEnableRendering.@tooltip":
-  "Distant Horizons が LOD をレンダリングするかどうかを決定します。",
-
+  "Determines if Distant Horizons Renders LODs.",
+  
   "distanthorizons.config.client.qualityPresetSetting":
-  "クオリティプリセット",
+    "Quality Preset",
   "distanthorizons.config.client.qualityPresetSetting.@tooltip":
-  "Distant Horizons のレンダリング品質をすばやく変更するために、複数のグラフィック設定を変更します。\n\nGPUの使用率が高すぎる場合やフレームレートに問題がある場合はこの設定を下げてください。",
+    "Modifies a number of graphical settings to quickly change Distant Horizons' rendering quality. \n\nLower this setting if your GPU is at max usage or you are having framerate issues.",
   "distanthorizons.config.client.threadPresetSetting":
-  "CPU負荷",
+    "CPU Load",
   "distanthorizons.config.client.threadPresetSetting.@tooltip":
-  "Distant Horizons が使用するスレッド数を変更します。\n\nこの設定を上げると、Distant Generator の速度や LOD の読み込み速度が向上しますが、\nCPUとメモリの使用率も上がり、スタッタリングが発生する場合があります。\n\n注: コア数が4つ以下のCPUではこの設定の効果が限定され、\n一部の設定は同様の結果になります。",
-
+    "Modifies how many threads Distant Horizons' will use. \n\nIncreasing this setting will improve the Distant Generator speed and LOD loading speed, \nbut will also increase CPU/memory usage and may introduce stuttering. \n\nNote: on CPUs with 4 cores or less these settings will be less effective \nand some settings will give similar results.",
+    
   "distanthorizons.config.client.optionsButton":
-  "オプションボタンを表示する",
+    "Show The Options Button",
   "distanthorizons.config.client.optionsButton.@tooltip":
-  "FOVボタンの左に設定ボタンを表示します",
-
+    "Show the config button to the left of the fov button",
+    
+    
+    
   "distanthorizons.config.client.advanced":
-  "詳細オプション",
-
+    "Advanced options",
+    
   "distanthorizons.config.client.advanced.graphics":
-  "グラフィック",
+    "Graphics",
   "distanthorizons.config.client.advanced.graphics.quality":
-  "描画品質",
-
+    "Render Quality",
 
   "distanthorizons.config.client.advanced.graphics.quality.maxHorizontalResolution":
-  "最大水平解像度",
+    "Max Horizontal Resolution",
   "distanthorizons.config.client.advanced.graphics.quality.maxHorizontalResolution.@tooltip":
-  "LOD の最大詳細度でレンダリングされます。\n\n§6最速:§r チャンク単位\n§6最高:§r ブロック単位",
+    "The maximum detail LODs are rendered at.\n\n§6Fastest:§r Chunk\n§6Fanciest:§r Block",
   "distanthorizons.config.client.advanced.graphics.quality.lodChunkRenderDistanceRadius":
-  "LOD チャンクレンダリング距離半径",
+    "LOD Chunk Render Distance Radius",
   "distanthorizons.config.client.advanced.graphics.quality.lodChunkRenderDistanceRadius.@tooltip":
-  "Distant Horizons のレンダリング距離（チャンク単位）です。\n\n注: これは目標値です。他のグラフィック設定によって、実際のレンダリング距離がこの数値よりも\n大きくなったり小さくなったりすることがあります。",
+    "Distant Horizons' render distance, measured in chunks. \n\nNote: this is a best effort number. \nThe render distance may be above or below this number \ndepending on your other graphic settings.",
   "distanthorizons.config.client.advanced.graphics.quality.verticalQuality":
-  "垂直品質",
+    "Vertical Quality",
   "distanthorizons.config.client.advanced.graphics.quality.verticalQuality.@tooltip":
-  "LOD が張り出し、洞窟、崖面などをどの程度表現するかを設定します。\n\n高い設定はメモリとGPUの使用量を増加させます。",
+    "How well LODs represent overhangs, caves, cliffsides, etc.\n\nHigher options will increase memory and GPU usage.",
   "distanthorizons.config.client.advanced.graphics.quality.horizontalScale":
-  "水平スケール",
+    "Horizontal Scale",
   "distanthorizons.config.client.advanced.graphics.quality.horizontalScale.@tooltip":
-  "LOD の品質がどのくらい早く低下するかを設定します。\n\n数値を大きくすると遠くの地形がより良く見えるようになりますが、メモリとGPUの使用量が増加します。",
+    "How quickly LODs drop off in quality.\n\nLarger numbers will improve how distant terrain looks\nbut will increase memory and GPU usage.",
   "distanthorizons.config.client.advanced.graphics.quality.horizontalQuality":
-  "LOD 品質低下距離",
+    "LOD Dropoff Distance",
   "distanthorizons.config.client.advanced.graphics.quality.horizontalQuality.@tooltip":
-  "品質低下の間隔がどのくらい離れているかを設定します。\n\n高い設定は低下間の距離を増加させますが、メモリとGPUの使用量も増加します。",
+    "How far apart drops in quality are.\n\nHigher settings will increase the distance between drops\nbut will increase memory and GPU usage.",
   "distanthorizons.config.client.advanced.graphics.quality.transparency":
-  "透明度",
+    "Transparency",
   "distanthorizons.config.client.advanced.graphics.quality.blocksToIgnore":
-  "無視するブロック",
+    "Blocks To Ignore",
   "distanthorizons.config.client.advanced.graphics.quality.blocksToIgnore.@tooltip":
-  "LOD を生成する際に無視するブロックの種類を定義します。",
+    "Defines the types of blocks to ignore when generating LODs.",
   "distanthorizons.config.client.advanced.graphics.quality.tintWithAvoidedBlocks":
-  "無視するブロックで色付け",
+    "Tint With Avoided Blocks",
   "distanthorizons.config.client.advanced.graphics.quality.tintWithAvoidedBlocks.@tooltip":
-  "§4注意: 雪、カーペット、トラップドアの見栄えが悪くなります§r\n無視されたブロックの下にあるブロックに、そのブロックの色を反映させますか？\n§6True:§r 草の上に赤い花があると、その下の草が赤く着色されます。\n§6False:§r 無視されたブロックが表面の色を変更しません。",
+    "§4Note: makes snow, carpet, and trapdoors look really bad§r\nShould the blocks underneath avoided blocks gain the color of the avoided block?\n§6True:§r a red flower on grass will tint the grass below it red\n§6False:§r skipped blocks will not change color of surface below them",
   "distanthorizons.config.client.advanced.graphics.quality.lodBiomeBlending":
-  "バイオームブレンディング",
+    "Biome Blending",
   "distanthorizons.config.client.advanced.graphics.quality.lodBiomeBlending.@tooltip":
-  "LOD エリア用のバニラのバイオームブレンディング設定と同じです。\n\n'0'以外に設定すると、LOD生成時間が大幅に影響を受け、\n三角形数が増加します。チャンク生成速度にも影響が大きいです。\n\n'0'はバニラのバイオームブレンディング '1x1'に相当し、\n'1'は '3x3'、'2'は '5x5'に相当します。\n",
-
-
+    "This is the same as vanilla Biome Blending settings for LOD area. \n\nNote that anything other than '0' will greatly effect Lod building time\nand increase triangle count. The cost on chunk generation speed is also \nquite large if set to too high.\n\n'0' equals to Vanilla Biome Blending of '1x1', \n'1' equals to Vanilla Biome Blending of '3x3', \n'2' equals to Vanilla Biome Blending of '5x5'... \n",
+  
+  
   "distanthorizons.config.client.advanced.graphics.fog":
-  "霧",
+    "Fog",
 
   "distanthorizons.config.client.advanced.graphics.fog.drawMode":
-  "霧の描画モード",
+    "Fog Draw Mode",
   "distanthorizons.config.client.advanced.graphics.fog.drawMode.@tooltip":
-  "LOD 上で霧をレンダリングするタイミングを設定します。",
+    "When fog will be rendered on the LODs.",
   "distanthorizons.config.client.advanced.graphics.fog.distance":
-  "霧の距離",
+    "Fog Distance",
   "distanthorizons.config.client.advanced.graphics.fog.distance.@tooltip":
-  "LOD 上で霧がレンダリングされる距離を設定します。",
+    "The distance(s) Fog will be rendered on the LODs.",
   "distanthorizons.config.client.advanced.graphics.fog.colorMode":
-  "霧の色モード",
+    "Fog Color Mode",
   "distanthorizons.config.client.advanced.graphics.fog.colorMode.@tooltip":
-  "LOD 上の霧の色を設定します。",
+    "The color of the fog on LODs.",
   "distanthorizons.config.client.advanced.graphics.fog.disableVanillaFog":
-  "バニラ霧を無効化",
+    "Disable Vanilla Fog",
   "distanthorizons.config.client.advanced.graphics.fog.disableVanillaFog.@tooltip":
-  "§6True:§r Minecraft の通常チャンクで霧を無効化します。\n§6False:§r Minecraft が通常通り霧をレンダリングします。\n\n他の霧を編集する Mod と干渉する可能性があります。\nバニラチャンクが霧で完全に覆われている場合は無効化してください。",
+    "§6True:§r disables Minecraft's fog on vanilla chunks.\n§6False:§r Minecraft renders fog like normal.\n\nMay cause issues with other mods that edit fog.\nDisable if vanilla chunks are completely covered in fog.",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog":
-  "高度な霧オプション",
+    "Advanced Fog Options",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogStart":
-  "遠距離霧開始位置",
+    "Far Fog Start",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogStart.@tooltip":
-  "遠距離霧の開始位置を設定します。\n\n'0.0': プレイヤーの位置で霧が始まります。\n'1.0': 霧開始円が LOD レンダリング距離の四角形にちょうど収まります。\n'1.414': LOD レンダリング距離の四角形が霧開始円にちょうど収まります。\n",
+    "Where should the far fog start? \n\n  '0.0': Fog start at player's position.\n  '1.0': The fog-start's circle fit just in the lod render distance square.\n'1.414': The lod render distance square fit just in the fog-start's circle.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogEnd":
-  "遠距離霧終了位置",
+    "Far Fog End",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogEnd.@tooltip":
-  "遠距離霧の終了位置を設定します。\n\n'0.0': プレイヤーの位置で霧が終了します。\n'1.0': 霧終了円が LOD レンダリング距離の四角形にちょうど収まります。\n'1.414': LOD レンダリング距離の四角形が霧終了円にちょうど収まります。\n",
+    "Where should the far fog end? \n\n  '0.0': Fog end at player's position.\n  '1.0': The fog-end's circle fit just in the lod render distance square.\n'1.414': The lod render distance square fit just in the fog-end's circle.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogMin":
-  "遠距離霧の最小濃度",
+    "Far Fog Min",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogMin.@tooltip":
-  "霧の最小濃度を設定します。\n\n'0.0': 霧なし。\n'1.0': 完全に霧の色。\n",
+    "What is the minimum fog thickness? \n\n  '0.0': No fog at all.\n  '1.0': Fully fog color.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogMax":
-  "遠距離霧の最大濃度",
+    "Far Fog Max",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogMax.@tooltip":
-  "霧の最大濃度を設定します。\n\n'0.0': 霧なし。\n'1.0': 完全に霧の色。\n",
+    "What is the maximum fog thickness? \n\n  '0.0': No fog at all.\n  '1.0': Fully fog color.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogFalloff":
-  "遠距離霧の減衰",
+    "Far Fog Falloff",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogFalloff.@tooltip":
-  "霧の濃度の計算方法を設定します。\n\nLINEAR: 距離に基づいて線形（'density' を無視）\nEXPONENTIAL: 1/(e^(距離×密度))\nEXPONENTIAL_SQUARED: 1/(e^((距離×密度)^2))\n",
+    "How should the fog thickness should be calculated? \n\nLINEAR: Linear based on distance (will ignore 'density')\nEXPONENTIAL: 1/(e^(distance*density)) \nEXPONENTIAL_SQUARED: 1/(e^((distance*density)^2) \n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogDensity":
-  "遠距離霧の密度",
+    "Far Fog Density",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogDensity.@tooltip":
-  "霧の密度を設定します。",
+    "What is the fog density? ",
 
 
   "distanthorizons.config.client.advanced.graphics.ssao":
-  "Ambient Occlusion",
-
+    "Ambient Occlusion",
+    
   "distanthorizons.config.client.advanced.graphics.ssao.enabled":
-  "Enable Ambient Occlusion",
+    "Enable Ambient Occlusion",
   "distanthorizons.config.client.advanced.graphics.ssao.enabled.@tooltip":
-  "Ambient Occlusion adds depth to the lighting of blocks.",
+    "Ambient Occlusion adds depth to the lighting of blocks.",
   "distanthorizons.config.client.advanced.graphics.ssao.sampleCount":
-  "Sample Count",
+    "Sample Count",
   "distanthorizons.config.client.advanced.graphics.ssao.sampleCount.@tooltip":
-  "Determines how many points in space are sampled for the occlusion test. \nHigher numbers will improve quality and reduce banding, but will increase GPU load.",
+    "Determines how many points in space are sampled for the occlusion test. \nHigher numbers will improve quality and reduce banding, but will increase GPU load.",
   "distanthorizons.config.client.advanced.graphics.ssao.radius":
-  "Radius",
+    "Radius",
   "distanthorizons.config.client.advanced.graphics.ssao.radius.@tooltip":
-  "Determines the radius Screen Space Ambient Occlusion is applied, measured in blocks.",
+    "Determines the radius Screen Space Ambient Occlusion is applied, measured in blocks.",
   "distanthorizons.config.client.advanced.graphics.ssao.strength":
-  "Strength",
+    "Strength",
   "distanthorizons.config.client.advanced.graphics.ssao.strength.@tooltip":
-  "Determines how dark the Screen Space Ambient Occlusion effect will be.",
+    "Determines how dark the Screen Space Ambient Occlusion effect will be.",
   "distanthorizons.config.client.advanced.graphics.ssao.bias":
-  "Bias",
+    "Bias",
   "distanthorizons.config.client.advanced.graphics.ssao.bias.@tooltip":
-  "Increasing the value can reduce banding at the cost of reducing the strength of the effect.",
+    "Increasing the value can reduce banding at the cost of reducing the strength of the effect.",
   "distanthorizons.config.client.advanced.graphics.ssao.minLight":
-  "Min Light",
+    "Min Light",
   "distanthorizons.config.client.advanced.graphics.ssao.minLight.@tooltip":
-  "Determines how dark the occlusion shadows can be. \n0 = totally black at the corners \n1 = no shadow",
+    "Determines how dark the occlusion shadows can be. \n0 = totally black at the corners \n1 = no shadow",
   "distanthorizons.config.client.advanced.graphics.ssao.blurRadius":
-  "Blur Radius",
+    "Blur Radius",
   "distanthorizons.config.client.advanced.graphics.ssao.blurRadius.@tooltip":
-  "The radius, measured in pixels, that blurring is calculated for the SSAO. \nHigher numbers will reduce banding at the cost of GPU performance.",
-
-
+    "The radius, measured in pixels, that blurring is calculated for the SSAO. \nHigher numbers will reduce banding at the cost of GPU performance.",
+    
+    
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog":
-  "Height Fog Options",
-
+    "Height Fog Options",
+     
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogMixMode":
-  "Height Fog Mix Mode",
+    "Height Fog Mix Mode",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogMixMode.@tooltip":
-  "How the height should effect the fog thickness combined with the normal function? \n\nBASIC: No special height fog effect. Fog is calculated based on camera distance \nIGNORE_HEIGHT: Ignore height completely. Fog is calculated based on horizontal distance \nADDITION: heightFog + farFog \nMAX: max(heightFog, farFog) \nMULTIPLY: heightFog * farFog \nINVERSE_MULTIPLY: 1 - (1-heightFog) * (1-farFog) \nLIMITED_ADDITION: farFog + max(farFog, heightFog) \nMULTIPLY_ADDITION: farFog + farFog * heightFog \nINVERSE_MULTIPLY_ADDITION: farFog + 1 - (1-heightFog) * (1-farFog) \nAVERAGE: farFog*0.5 + heightFog*0.5 \n\nNote that for 'BASIC' mode and 'IGNORE_HEIGHT' mode, fog settings for height fog has no effect.\n",
+    "How the height should effect the fog thickness combined with the normal function? \n\nBASIC: No special height fog effect. Fog is calculated based on camera distance \nIGNORE_HEIGHT: Ignore height completely. Fog is calculated based on horizontal distance \nADDITION: heightFog + farFog \nMAX: max(heightFog, farFog) \nMULTIPLY: heightFog * farFog \nINVERSE_MULTIPLY: 1 - (1-heightFog) * (1-farFog) \nLIMITED_ADDITION: farFog + max(farFog, heightFog) \nMULTIPLY_ADDITION: farFog + farFog * heightFog \nINVERSE_MULTIPLY_ADDITION: farFog + 1 - (1-heightFog) * (1-farFog) \nAVERAGE: farFog*0.5 + heightFog*0.5 \n\nNote that for 'BASIC' mode and 'IGNORE_HEIGHT' mode, fog settings for height fog has no effect.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogMode":
-  "Height Fog Mode",
+    "Height Fog Mode",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogMode.@tooltip":
-  "Where should the height fog be located? \n\nABOVE_CAMERA: Height fog starts from camera to the sky \nBELOW_CAMERA: Height fog starts from camera to the void \nABOVE_AND_BELOW_CAMERA: Height fog starts from camera to both the sky and the void \nABOVE_SET_HEIGHT: Height fog starts from a set height to the sky \nBELOW_SET_HEIGHT: Height fog starts from a set height to the void \nABOVE_AND_BELOW_SET_HEIGHT: Height fog starts from a set height to both the sky and the void \n",
+    "Where should the height fog be located? \n\nABOVE_CAMERA: Height fog starts from camera to the sky \nBELOW_CAMERA: Height fog starts from camera to the void \nABOVE_AND_BELOW_CAMERA: Height fog starts from camera to both the sky and the void \nABOVE_SET_HEIGHT: Height fog starts from a set height to the sky \nBELOW_SET_HEIGHT: Height fog starts from a set height to the void \nABOVE_AND_BELOW_SET_HEIGHT: Height fog starts from a set height to both the sky and the void \n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogBaseHeight":
-  "Height Fog Base Height",
+    "Height Fog Base Height",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogBaseHeight.@tooltip":
-  "If the height fog is calculated around a set height, what is that height position? ",
+    "If the height fog is calculated around a set height, what is that height position? ",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogStart":
-  "Height Fog Start",
+    "Height Fog Start",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogStart.@tooltip":
-  "How far the start of height fog should offset? \n\n  '0.0': Fog start with no offset.\n  '1.0': Fog start with offset of the entire world's height. (Include depth)\n",
+    "How far the start of height fog should offset? \n\n  '0.0': Fog start with no offset.\n  '1.0': Fog start with offset of the entire world's height. (Include depth)\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogEnd":
-  "Height Fog End",
+    "Height Fog End",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogEnd.@tooltip":
-  "How far the end of height fog should offset? \n\n  '0.0': Fog end with no offset.\n  '1.0': Fog end with offset of the entire world's height. (Include depth)\n",
+    "How far the end of height fog should offset? \n\n  '0.0': Fog end with no offset.\n  '1.0': Fog end with offset of the entire world's height. (Include depth)\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogMin":
-  "Height Fog Min",
+    "Height Fog Min",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogMin.@tooltip":
-  "What is the minimum fog thickness? \n\n  '0.0': No fog at all.\n  '1.0': Fully fog color.\n",
+    "What is the minimum fog thickness? \n\n  '0.0': No fog at all.\n  '1.0': Fully fog color.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogMax":
-  "Height Fog Max",
+    "Height Fog Max",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogMax.@tooltip":
-  "What is the maximum fog thickness? \n\n  '0.0': No fog at all.\n  '1.0': Fully fog color.\n",
+    "What is the maximum fog thickness? \n\n  '0.0': No fog at all.\n  '1.0': Fully fog color.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogFalloff":
-  "Height Fog Falloff",
+    "Height Fog Falloff",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogFalloff.@tooltip":
-  "How should the height fog thickness should be calculated? \n\nLINEAR: Linear based on height (will ignore 'density')\nEXPONENTIAL: 1/(e^(height*density)) \nEXPONENTIAL_SQUARED: 1/(e^((height*density)^2) \n",
+    "How should the height fog thickness should be calculated? \n\nLINEAR: Linear based on height (will ignore 'density')\nEXPONENTIAL: 1/(e^(height*density)) \nEXPONENTIAL_SQUARED: 1/(e^((height*density)^2) \n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogDensity":
-  "Height Fog Density",
+    "Height Fog Density",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.heightFog.heightFogDensity.@tooltip":
-  "What is the height fog's density? ",
-
-
+    "What is the height fog's density? ",
+    
+    
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings":
-  "Noise Texture",
-
+    "Noise Texture",
+    
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseEnabled":
-  "Enable Noise Texture",
+    "Enable Noise Texture",
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseEnabled.@tooltip":
-  "If enabled a noise texture will be applied to LODs to simulate textures.",
+    "If enabled a noise texture will be applied to LODs to simulate textures.",
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseSteps":
-  "Noise Steps",
+    "Noise Steps",
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseSteps.@tooltip":
-  "Determines how many steps of noise should be applied to the LODs.",
+    "Determines how many steps of noise should be applied to the LODs.",
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseIntensity":
-  "Noise Intensity",
+    "Noise Intensity",
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseIntensity.@tooltip":
-  "Determines how intense the noise texture is.",
+    "Determines how intense the noise texture is.",
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseDropoff":
-  "Noise Dropoff",
+    "Noise Dropoff",
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseDropoff.@tooltip":
-  "Defines how far should the noise texture render before it fades away. (in blocks). \nSet to 0 to disable noise from fading away.",
-
-
+    "Defines how far should the noise texture render before it fades away. (in blocks). \nSet to 0 to disable noise from fading away.",
+    
+    
   "distanthorizons.config.client.advanced.graphics.advancedGraphics":
-  "Advanced Graphics Options",
-
+    "Advanced Graphics Options",
+    
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.overdrawPrevention":
-  "Overdraw Prevention",
+    "Overdraw Prevention",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.overdrawPrevention.@tooltip":
-  "Determines how far from the camera Distant Horizons will start rendering. \nMeasured as a percentage of the vanilla render distance.\n\nHigher values will prevent LODs from rendering behind vanilla blocks at a higher distance,\nbut may cause holes to appear in the LODs. \nHoles are most likely to appear when flying through unloaded terrain. \n\nIncreasing the vanilla render distance increases the effectiveness of this setting.",
+    "Determines how far from the camera Distant Horizons will start rendering. \nMeasured as a percentage of the vanilla render distance.\n\nHigher values will prevent LODs from rendering behind vanilla blocks at a higher distance,\nbut may cause holes to appear in the LODs. \nHoles are most likely to appear when flying through unloaded terrain. \n\nIncreasing the vanilla render distance increases the effectiveness of this setting.",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.brightnessMultiplier":
-  "Brightness Multiplier",
+    "Brightness Multiplier",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.brightnessMultiplier.@tooltip":
-  "How bright LOD colors are.\n\n0 = black \n1 = normal \n2 = near white",
+    "How bright LOD colors are.\n\n0 = black \n1 = normal \n2 = near white",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.saturationMultiplier":
-  "Saturation Multiplier",
+    "Saturation Multiplier",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.saturationMultiplier.@tooltip":
-  "How saturated LOD colors are.\n\n0 = black and white \n1 = normal \n2 = vibrant",
+    "How saturated LOD colors are.\n\n0 = black and white \n1 = normal \n2 = vibrant",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.enableCaveCulling":
-  "Cave Culling",
+    "Cave Culling",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.enableCaveCulling.@tooltip":
-  "If enabled caves will be culled \n\nAdditional Info: Currently this cull all faces \n with skylight value of 0 under the cave culling height in dimensions that \n do not have a ceiling. \n",
+    "If enabled caves will be culled \n\nAdditional Info: Currently this cull all faces \n with skylight value of 0 under the cave culling height in dimensions that \n do not have a ceiling. \n",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.caveCullingHeight":
-  "Cave Culling Height",
+    "Cave Culling Height",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.caveCullingHeight.@tooltip":
-  "At what Y value should cave culling start?",
+    "At what Y value should cave culling start?",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.earthCurveRatio":
-  "Earth Curve Ratio §6(EXPERIMENTAL)§r",
+    "Earth Curve Ratio §6(EXPERIMENTAL)§r",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.earthCurveRatio.@tooltip":
-  "A value of 1 is equivalent to the curvature of Earth in real life. \nThe minimum accepted value is 50 and the maximum value is 5000. \nEverything between 1 and 49 will be rounded up to 50.",
+    "A value of 1 is equivalent to the curvature of Earth in real life. \nThe minimum accepted value is 50 and the maximum value is 5000. \nEverything between 1 and 49 will be rounded up to 50.",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.lodBias":
-  "LOD Bias §6(Affects vanilla terrain)§r",
+    "LOD Bias §6(Affects vanilla terrain)§r",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.lodBias.@tooltip":
-  "Sets vanilla's lod bias value\nPlease press F3+T to reload the texture packs and apply this affect.",
+    "Sets vanilla's lod bias value\nPlease press F3+T to reload the texture packs and apply this affect.",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.lodShading":
-  "LOD Shading",
+    "LOD Shading",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.lodShading.@tooltip":
-  "Defines how LODs should be shaded. \nCan be used to improve shader compatibility.",
+    "Defines how LODs should be shaded. \nCan be used to improve shader compatibility.",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.disableFrustumCulling":
-  "Disable Frustum Culling",
+    "Disable Frustum Culling",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.disableFrustumCulling.@tooltip":
-  "If false LODs outside the player's camera \naren't drawn, increasing GPU performance. \n\nIf true all LODs are drawn, even those behind \nthe player's camera, decreasing GPU performance. \n\nDisable this if you see LODs disappearing at the corners of your vision.",
+    "If false LODs outside the player's camera \naren't drawn, increasing GPU performance. \n\nIf true all LODs are drawn, even those behind \nthe player's camera, decreasing GPU performance. \n\nDisable this if you see LODs disappearing at the corners of your vision.",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.disableShadowPassFrustumCulling":
-  "Disable Shadow Pass Frustum Culling",
+    "Disable Shadow Pass Frustum Culling",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.disableShadowPassFrustumCulling.@tooltip":
-  "Identical to the other frustum culling option except that it is \nonly used when a shader mod is present using the DH API \nand the shadow pass is being rendered. \n\nDisable this if shadows render incorrectly.",
+    "Identical to the other frustum culling option except that it is \nonly used when a shader mod is present using the DH API \nand the shadow pass is being rendered. \n\nDisable this if shadows render incorrectly.",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.grassSideRendering":
-  "Grass Side Rendering",
+    "Grass Side Rendering",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.grassSideRendering.@tooltip":
-  "How should the sides and bottom of grass block LODs render?",
+    "How should the sides and bottom of grass block LODs render?",  
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.disableBeaconDistanceCulling":
-  "Disable Beacon Distance Culling",
+    "Disable Beacon Distance Culling",
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.disableBeaconDistanceCulling.@tooltip":
-  "If true all beacons near the camera won't be drawn to prevent vanilla overdraw. \nIf false all beacons will be rendered.",
+    "If true all beacons near the camera won't be drawn to prevent vanilla overdraw. \nIf false all beacons will be rendered.",
 
 
   "distanthorizons.config.client.advanced.graphics.genericRendering":
-  "Generic Rendering",
+    "Generic Rendering",
 
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableRendering":
-  "Enable Rendering",
+    "Enable Rendering",
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableRendering.@tooltip":
-  "If true non terrain objects will be rendered in DH's terrain. \nThis includes beacon beams and clouds.",
+    "If true non terrain objects will be rendered in DH's terrain. \nThis includes beacon beams and clouds.",
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableBeaconRendering":
-  "Enable Beacon Rendering",
+    "Enable Beacon Rendering",
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableBeaconRendering.@tooltip":
-  "If true LOD beacon beams will be rendered.",
+    "If true LOD beacon beams will be rendered.",
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableCloudRendering":
-  "Enable Cloud Rendering",
+    "Enable Cloud Rendering",
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableCloudRendering.@tooltip":
-  "If true LOD clouds will be rendered.",
-
-
+    "If true LOD clouds will be rendered.",
+    
+  
   "distanthorizons.config.client.advanced.worldGenerator":
-  "World Generator",
-
+    "World Generator",
+    
   "distanthorizons.config.client.advanced.worldGenerator.enableDistantGeneration":
-  "Enable Distant Generation",
+    "Enable Distant Generation",
   "distanthorizons.config.client.advanced.worldGenerator.enableDistantGeneration.@tooltip":
-  "§6True:§r in single player LODs will be generated outside the vanilla render distance.\nNote: this can use a large amount of CPU.\n\n§6False:§r LODs will only generate within the vanilla render distance.",
+    "§6True:§r in single player LODs will be generated outside the vanilla render distance.\nNote: this can use a large amount of CPU.\n\n§6False:§r LODs will only generate within the vanilla render distance.",
   "distanthorizons.config.client.advanced.worldGenerator.distantGeneratorMode":
-  "Distance Generator Mode",
+    "Distance Generator Mode",
   "distanthorizons.config.client.advanced.worldGenerator.distantGeneratorMode.@tooltip":
-  "How complicated the generation should be when generating LODs outside the vanilla render distance.",
+    "How complicated the generation should be when generating LODs outside the vanilla render distance.",
   "distanthorizons.config.client.advanced.worldGenerator.worldGenLightingEngine":
-  "Lighting Engine",
+    "Lighting Engine",
   "distanthorizons.config.client.advanced.worldGenerator.worldGenLightingEngine.@tooltip":
-  "§6Minecraft:§r use Minecraft's lighting engine, gives accurate lighting.\n§6Distant Horizons:§r estimates lighting, shadows won't be as smooth, but is more stable.\n\nIf the LODs appear black, set this to §6Distant Horizons§r.",
+    "§6Minecraft:§r use Minecraft's lighting engine, gives accurate lighting.\n§6Distant Horizons:§r estimates lighting, shadows won't be as smooth, but is more stable.\n\nIf the LODs appear black, set this to §6Distant Horizons§r.",
   "distanthorizons.config.client.advanced.worldGenerator.worldGenerationTimeoutLengthInSeconds":
-  "Timeout Length In Seconds",
+    "Timeout Length In Seconds",
   "distanthorizons.config.client.advanced.worldGenerator.worldGenerationTimeoutLengthInSeconds.@tooltip":
-  "How long should a world generator thread run for before timing out? \nNote: If you are experiencing timeout errors it is better to lower your CPU usage first \nvia the thread config before changing this value.",
+    "How long should a world generator thread run for before timing out? \nNote: If you are experiencing timeout errors it is better to lower your CPU usage first \nvia the thread config before changing this value.",
   "distanthorizons.config.client.advanced.worldGenerator.generationPriority":
-  "Generation Priority",
+    "Generation Priority",
   "distanthorizons.config.client.advanced.worldGenerator.generationPriority.@tooltip":
-  "The priority for chunks being generated around the player.",
+    "The priority for chunks being generated around the player.",
 
 
   "distanthorizons.config.client.advanced.lodBuilding":
-  "Lod Building",
+    "Lod Building",
 
   "distanthorizons.config.client.advanced.lodBuilding.minTimeBetweenChunkUpdatesInSeconds":
-  "Minimum Time Between Chunk Updates In Seconds",
+    "Minimum Time Between Chunk Updates In Seconds",
   "distanthorizons.config.client.advanced.lodBuilding.minTimeBetweenChunkUpdatesInSeconds.@tooltip":
-  "Determines how long must pass between LOD chunk updates before another. \nupdate can occur\n\nIncreasing this value will reduce CPU load but may may cause \nLODs to become outdated more frequently or for longer.",
+    "Determines how long must pass between LOD chunk updates before another. \nupdate can occur\n\nIncreasing this value will reduce CPU load but may may cause \nLODs to become outdated more frequently or for longer.",
   "distanthorizons.config.client.advanced.lodBuilding.disableUnchangedChunkCheck":
-  "Disable Unchanged Chunk Check",
+    "Disable Unchanged Chunk Check",
   "distanthorizons.config.client.advanced.lodBuilding.disableUnchangedChunkCheck.@tooltip":
-  "Disabling this check may fix issues where LODs aren't updated after\nblocks have been changed.\n",
+    "Disabling this check may fix issues where LODs aren't updated after\nblocks have been changed.\n",
   "distanthorizons.config.client.advanced.lodBuilding.onlyUseDhLightingEngine":
-  "Only Use DH Lighting Engine",
+    "Only Use DH Lighting Engine",
   "distanthorizons.config.client.advanced.lodBuilding.onlyUseDhLightingEngine.@tooltip":
-  "If false LODs will be lit by Minecraft's lighting engine when possible \nand fall back to the DH lighting engine only when necessary. \n\nIf true LODs will only be lit using Distant Horizons' lighting engine. \n\nGenerally it is best to leave this disabled and should only be enabled \nif there are lighting issues or for debugging.",
+    "If false LODs will be lit by Minecraft's lighting engine when possible \nand fall back to the DH lighting engine only when necessary. \n\nIf true LODs will only be lit using Distant Horizons' lighting engine. \n\nGenerally it is best to leave this disabled and should only be enabled \nif there are lighting issues or for debugging.",
   "distanthorizons.config.client.advanced.lodBuilding.pullLightingForPregeneratedChunks":
-  "Pull Lighting For Pre-generated Chunks",
+    "Pull Lighting For Pre-generated Chunks",
   "distanthorizons.config.client.advanced.lodBuilding.pullLightingForPregeneratedChunks.@tooltip":
-  "If true LOD generation for pre-existing chunks will attempt to pull the lighting data \nsaved in Minecraft's Region files. \nIf false DH will pull in chunks without lighting and re-light them. \n\nSetting this to true will result in faster LOD generation \nfor already generated worlds, but is broken by most lighting mods. \n\nSet this to false if LODs are black.",
+    "If true LOD generation for pre-existing chunks will attempt to pull the lighting data \nsaved in Minecraft's Region files. \nIf false DH will pull in chunks without lighting and re-light them. \n\nSetting this to true will result in faster LOD generation \nfor already generated worlds, but is broken by most lighting mods. \n\nSet this to false if LODs are black.",
   "distanthorizons.config.client.advanced.lodBuilding.dataCompression":
-  "Data Compression",
+    "Data Compression",
   "distanthorizons.config.client.advanced.lodBuilding.dataCompression.@tooltip":
-  "What algorithm should be used to compress new LOD data? \nThis setting will only affect new or updated LOD data, \nany data already generated when this setting is changed will be \nunaffected until it needs to be re-written to the database. \n\nFastest: LZ4 \nHighest Compression: LZMA2",
+    "What algorithm should be used to compress new LOD data? \nThis setting will only affect new or updated LOD data, \nany data already generated when this setting is changed will be \nunaffected until it needs to be re-written to the database. \n\nFastest: LZ4 \nHighest Compression: LZMA2",
   "distanthorizons.config.client.advanced.lodBuilding.worldCompression":
-  "Lossy World Compression",
+    "Lossy World Compression",
   "distanthorizons.config.client.advanced.lodBuilding.worldCompression.@tooltip":
-  "How should block data be compressed when creating LOD data? \nThis setting will only affect new or updated LOD data, \nany data already generated when this setting is changed will be \nunaffected until it is modified or re-loaded. \n\nMost Accurate: Merge Same Blocks \nHighest Compression: Visually Equal",
+    "How should block data be compressed when creating LOD data? \nThis setting will only affect new or updated LOD data, \nany data already generated when this setting is changed will be \nunaffected until it is modified or re-loaded. \n\nMost Accurate: Merge Same Blocks \nHighest Compression: Visually Equal",
   "distanthorizons.config.client.advanced.lodBuilding.showMigrationChatWarning":
-  "Log Migration In Chat",
+    "Log Migration In Chat",
   "distanthorizons.config.client.advanced.lodBuilding.ignoredRenderBlockCsv":
-  "Ignored Block CSV",
+    "Ignored Block CSV",
   "distanthorizons.config.client.advanced.lodBuilding.ignoredRenderBlockCsv.@tooltip":
-  "A comma separated list of block resource locations that won't be rendered by DH. \nNote: air is always included in this list.",
+    "A comma separated list of block resource locations that won't be rendered by DH. \nNote: air is always included in this list.",
   "distanthorizons.config.client.advanced.lodBuilding.ignoredRenderCaveBlockCsv":
-  "Ignored Cave Block CSV",
+    "Ignored Cave Block CSV",
   "distanthorizons.config.client.advanced.lodBuilding.ignoredRenderCaveBlockCsv.@tooltip":
-  "A comma separated list of block resource locations that shouldn't be rendered \nif they are in a 0 sky light underground area. \nNote: air is always included in this list.",
-
+    "A comma separated list of block resource locations that shouldn't be rendered \nif they are in a 0 sky light underground area. \nNote: air is always included in this list.",
+    
   "distanthorizons.config.client.advanced.multiplayer":
-  "Multiplayer",
-
+    "Multiplayer",
+    
   "distanthorizons.config.client.advanced.multiplayer.serverFolderNameMode":
-  "Server Folder Mode",
+    "Server Folder Mode",
   "distanthorizons.config.client.advanced.multiplayer.serverFolderNameMode.@tooltip":
-  "Determines the folder format for local multiplayer data.\n\n§6Name Only:§r\nUses the server browser name. Ex: \"Minecraft Server\"\n§6IP Only:§r\n\"192.168.1.40\"\n§6Name IP:§r\n\"Minecraft Server, IP 192.168.1.40\"\n§6Name, IP, Port:§r\n\"Minecraft Server, IP 192.168.1.40:25565\"\n§6Name, IP, Port, MC Version:§r\n\"Minecraft Server, IP 192.168.1.40:25565, GameVersion 1.18.1\"\n\n§c§lCaution:§r changing while connected to a multiplayer server may cause glitches.",
+    "Determines the folder format for local multiplayer data.\n\n§6Name Only:§r\nUses the server browser name. Ex: \"Minecraft Server\"\n§6IP Only:§r\n\"192.168.1.40\"\n§6Name IP:§r\n\"Minecraft Server, IP 192.168.1.40\"\n§6Name, IP, Port:§r\n\"Minecraft Server, IP 192.168.1.40:25565\"\n§6Name, IP, Port, MC Version:§r\n\"Minecraft Server, IP 192.168.1.40:25565, GameVersion 1.18.1\"\n\n§c§lCaution:§r changing while connected to a multiplayer server may cause glitches.",
   "distanthorizons.config.client.advanced.multiplayer.multiverseSimilarityRequiredPercent":
-  "Multiverse Required Similarity %",
+    "Multiverse Required Similarity %",
   "distanthorizons.config.client.advanced.multiplayer.multiverseSimilarityRequiredPercent.@tooltip":
-  "When matching worlds of the same dimension type the\ntested chunk(s) must be at least this percent the same\nin order to be considered the same world.\n\nNote: If you use portals to enter a dimension at two\ndifferent locations this system may think it is two different worlds.\n\n§61.0:§r the chunks must be identical.\n§60.5:§r the chunks must be half the same.\n§60.0:§r disables multi-dimension support\n     only one world will be used per dimension.",
+    "When matching worlds of the same dimension type the\ntested chunk(s) must be at least this percent the same\nin order to be considered the same world.\n\nNote: If you use portals to enter a dimension at two\ndifferent locations this system may think it is two different worlds.\n\n§61.0:§r the chunks must be identical.\n§60.5:§r the chunks must be half the same.\n§60.0:§r disables multi-dimension support\n     only one world will be used per dimension.",
   "distanthorizons.config.client.advanced.multiplayer.enableMultiverseNetworking":
-  "Networked Multiverse Support",
+    "Networked Multiverse Support",
   "distanthorizons.config.client.advanced.multiplayer.enableMultiverseNetworking.@tooltip":
-  "If true Distant Horizons will attempt to communicate with the connected \nserver in order to improve multiverse support.",
+    "If true Distant Horizons will attempt to communicate with the connected \nserver in order to improve multiverse support.",
   "distanthorizons.config.client.advanced.multiplayer.enableServerNetworking":
   "§4Unimplemented, Dev Use Only§r - Server Support",
   "distanthorizons.config.client.advanced.multiplayer.enableServerNetworking.@tooltip":
   "§6Attention:§r this is only for developers and hasn't been implemented. \n\nIf true Distant Horizons will attempt to communicate with the connected \nserver in order to load LODs outside your vanilla render distance. \n\nNote: This requires DH to be installed on the server in order to function.",
-
-
-
+  
+  
+  
   "distanthorizons.config.client.advanced.multiThreading":
-  "Threading",
-
+    "Threading",
+    
   "distanthorizons.config.client.advanced.multiThreading.numberOfWorldGenerationThreads":
-  "NO. of world generation threads",
+    "NO. of world generation threads",
   "distanthorizons.config.client.advanced.multiThreading.numberOfWorldGenerationThreads.@tooltip":
-  "How many threads should be used when generating LODs \n outside the normal render distance?\n\nIf you experience stuttering when generating distant LODs, \ndecrease  this number. If you want to increase LOD \ngeneration speed, increase this number.",
+    "How many threads should be used when generating LODs \n outside the normal render distance?\n\nIf you experience stuttering when generating distant LODs, \ndecrease  this number. If you want to increase LOD \ngeneration speed, increase this number.",
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForWorldGenerationThreads":
-  "Runtime % for world generation threads",
-
+    "Runtime % for world generation threads",
+  
   "distanthorizons.config.client.advanced.multiThreading.numberOfBufferBuilderThreads":
-  "NO. of buffer builder threads",
+    "NO. of buffer builder threads",
   "distanthorizons.config.client.advanced.multiThreading.numberOfBufferBuilderThreads.@tooltip":
-  "The number of threads used when building geometry data. \nCan only be between 1 and your CPU's processor count.",
+    "The number of threads used when building geometry data. \nCan only be between 1 and your CPU's processor count.",
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForBufferBuilderThreads":
-  "Runtime % for buffer builder threads",
-
+    "Runtime % for buffer builder threads",
+  
   "distanthorizons.config.client.advanced.multiThreading.numberOfFileHandlerThreads":
-  "NO. of file handler threads",
+    "NO. of file handler threads",
   "distanthorizons.config.client.advanced.multiThreading.numberOfFileHandlerThreads.@tooltip":
-  "The number of threads used when reading/writing LOD data to/from the disk. \nCan only be between 1 and your CPU's processor count.",
+    "The number of threads used when reading/writing LOD data to/from the disk. \nCan only be between 1 and your CPU's processor count.",
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForFileHandlerThreads":
-  "Runtime % for file handler threads",
-
+    "Runtime % for file handler threads",
+  
   "distanthorizons.config.client.advanced.multiThreading.numberOfUpdatePropagatorThreads":
-  "NO. of update propagator threads",
+    "NO. of update propagator threads",
   "distanthorizons.config.client.advanced.multiThreading.numberOfUpdatePropagatorThreads.@tooltip":
   "How many threads should be used when applying LOD updates? \nAn LOD update is the operation of down-sampling a high detail LOD \ninto a lower detail one. \n\nThis config can have a much higher number of threads \nassigned and much lower run time ratio vs other thread pools \nbecause the amount of time any particular thread may run is relatively low.",
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForUpdatePropagatorThreads":
-  "Runtime % for update propagator threads",
-
+    "Runtime % for update propagator threads",
+  
   "distanthorizons.config.client.advanced.multiThreading.numberOfLodBuilderThreads":
-  "NO. of LOD builder threads",
+    "NO. of LOD builder threads",
   "distanthorizons.config.client.advanced.multiThreading.numberOfLodBuilderThreads.@tooltip":
-  "The number of threads used when building LODs. \nThese threads run when terrain is generated, when \ncertain graphics settings are changed, and when moving around the world.",
+    "The number of threads used when building LODs. \nThese threads run when terrain is generated, when \ncertain graphics settings are changed, and when moving around the world.",
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForLodBuilderThreads":
-  "Runtime % for LOD builder threads",
+    "Runtime % for LOD builder threads",
   "distanthorizons.config.client.advanced.multiThreading.enableLodBuilderThreadLimiting":
-  "Enable LOD builder thread limiting",
+    "Enable LOD builder thread limiting",
   "distanthorizons.config.client.advanced.multiThreading.enableLodBuilderThreadLimiting.@tooltip":
-  "Should only be disabled if deadlock occurs and LODs refuse to update. \nThis will cause CPU usage to drastically increase for the Lod Builder threads. \nNote that if a deadlock did occur restarting MC may be necessary to stop the locked threads.",
-
-
+    "Should only be disabled if deadlock occurs and LODs refuse to update. \nThis will cause CPU usage to drastically increase for the Lod Builder threads. \nNote that if a deadlock did occur restarting MC may be necessary to stop the locked threads.",
+  
+  
   "distanthorizons.config.client.advanced.debugging":
-  "Debug",
-
+    "Debug",
+    
   "distanthorizons.config.client.advanced.debugging.rendererMode":
-  "Renderer Mode",
+    "Renderer Mode",
   "distanthorizons.config.client.advanced.debugging.debugRendering":
-  "Debug Rendering",
+    "Debug Rendering",
   "distanthorizons.config.client.advanced.debugging.debugMode.@tooltip":
-  "The active debug mode.",
+    "The active debug mode.",
   "distanthorizons.config.client.advanced.debugging.renderWireframe":
-  "Render Wireframe",
+    "Render Wireframe",
   "distanthorizons.config.client.advanced.debugging.renderWireframe.@tooltip":
-  "If enabled the LODs will render as wireframe.",
+    "If enabled the LODs will render as wireframe.",
   "distanthorizons.config.client.advanced.debugging.enableDebugKeybindings":
-  "Enable debug keybindings",
+    "Enable debug keybindings",
   "distanthorizons.config.client.advanced.debugging.enableDebugKeybindings.@tooltip":
-  "§6True:§r debug keybindings can be used to change the Debug mode in game.",
+    "§6True:§r debug keybindings can be used to change the Debug mode in game.", 
   "distanthorizons.config.client.advanced.debugging.lodOnlyMode":
-  "Only Render LODs",
+    "Only Render LODs",
   "distanthorizons.config.client.advanced.debugging.lodOnlyMode.@tooltip":
-  "If enabled this will disable (most) vanilla Minecraft rendering. \n\nNOTE: Do not report any issues when this mode is on! \nThis setting is only for fun and debugging. \nMod compatibility is not guaranteed.",
+    "If enabled this will disable (most) vanilla Minecraft rendering. \n\nNOTE: Do not report any issues when this mode is on! \nThis setting is only for fun and debugging. \nMod compatibility is not guaranteed.",
   "distanthorizons.config.client.advanced.debugging.enableWhiteWorld":
-  "Enable white world",
+    "Enable white world",
   "distanthorizons.config.client.advanced.debugging.enableWhiteWorld.@tooltip":
-  "If enabled, vertex color will not be passed.\nUseful for debugging shaders.",
+    "If enabled, vertex color will not be passed.\nUseful for debugging shaders.",
   "distanthorizons.config.client.advanced.debugging.showOverlappingQuadErrors":
-  "Show overlapping quad errors",
+    "Show overlapping quad errors",
   "distanthorizons.config.client.advanced.debugging.showOverlappingQuadErrors.@tooltip":
-  "If true overlapping quads will be rendered as bright red for easy identification. \nIf false the quads will be rendered normally.",
+    "If true overlapping quads will be rendered as bright red for easy identification. \nIf false the quads will be rendered normally.",
   "distanthorizons.config.client.advanced.debugging.logBufferGarbageCollection":
-  "Log Buffer Garbage Collection",
+    "Log Buffer Garbage Collection",
   "distanthorizons.config.client.advanced.debugging.logBufferGarbageCollection.@tooltip":
-  "If true OpenGL Buffer garbage collection will be logged \nthis also includes the number of live buffers. ",
+    "If true OpenGL Buffer garbage collection will be logged \nthis also includes the number of live buffers. ",
   "distanthorizons.config.client.advanced.debugging.allowUnsafeValues":
-  "Allow Unsafe UI Values",
+    "Allow Unsafe UI Values",
   "distanthorizons.config.client.advanced.debugging.allowUnsafeValues.@tooltip":
-  "If enabled, very limited config input validation will be performed. \n\nWarning: enabling this can cause instability or crashing, use at your own risk. \nNote: this option isn't saved between sessions.",
-
+    "If enabled, very limited config input validation will be performed. \n\nWarning: enabling this can cause instability or crashing, use at your own risk. \nNote: this option isn't saved between sessions.",
+  
   "distanthorizons.config.client.advanced.debugging.columnBuilderDebugEnable":
-  "Enable Column Builder Limiting",
+    "Enable Column Builder Limiting",
   "distanthorizons.config.client.advanced.debugging.columnBuilderDebugDetailLevel":
-  "Column Builder Limit - Detail Level",
+    "Column Builder Limit - Detail Level",
   "distanthorizons.config.client.advanced.debugging.columnBuilderDebugXPos":
-  "Column Builder Limit - X Pos",
+    "Column Builder Limit - X Pos",
   "distanthorizons.config.client.advanced.debugging.columnBuilderDebugZPos":
-  "Column Builder Limit - Z Pos",
+    "Column Builder Limit - Z Pos",
   "distanthorizons.config.client.advanced.debugging.columnBuilderDebugXRow":
-  "Column Builder Limit - X Row",
+    "Column Builder Limit - X Row",
   "distanthorizons.config.client.advanced.debugging.columnBuilderDebugZRow":
-  "Column Builder Limit - Z Row",
+    "Column Builder Limit - Z Row",
   "distanthorizons.config.client.advanced.debugging.columnBuilderDebugColumnIndex":
-  "Column Builder Limit - Col Index",
-
-
+    "Column Builder Limit - Col Index",
+  
+    
   "distanthorizons.config.client.advanced.buffers":
-  "Buffers",
+    "Buffers",
   "distanthorizons.config.client.advanced.buffers.gpuUploadMethod":
-  "GPU upload method",
+    "GPU upload method",
   "distanthorizons.config.client.advanced.buffers.gpuUploadMethod.@tooltip":
-  "The method for uploading geometry to the GPU.\n\nIf you experience stuttering while your CPU and GPU usage is low, try changing this setting.\nNote: if you are in a world you may have to leaving and rejoin to see the full effect.",
+    "The method for uploading geometry to the GPU.\n\nIf you experience stuttering while your CPU and GPU usage is low, try changing this setting.\nNote: if you are in a world you may have to leaving and rejoin to see the full effect.",
   "distanthorizons.config.client.advanced.buffers.gpuUploadPerMegabyteInMilliseconds":
-  "GPU upload speed (milliseconds)",
+    "GPU upload speed (milliseconds)",
   "distanthorizons.config.client.advanced.buffers.gpuUploadPerMegabyteInMilliseconds.@tooltip":
-  "How long should a buffer wait per Megabyte of data uploaded?\nMay be increased if there is frame stuttering.",
+    "How long should a buffer wait per Megabyte of data uploaded?\nMay be increased if there is frame stuttering.",
   "distanthorizons.config.client.advanced.buffers.gpuUploadAsync":
-  "GPU upload Async",
+    "GPU upload Async",
   "distanthorizons.config.client.advanced.buffers.gpuUploadAsync.@tooltip":
-  "If true geometry data will be uploaded on a DH controlled thread, reducing FPS stuttering. \nIf false uploading will be done on Minecraft's main rendering thread. \n\nSetting this to false may reduce crashes or corrupted geometry on systems with an AMD GPU when Sodium is installed.",
-
-
-
+    "If true geometry data will be uploaded on a DH controlled thread, reducing FPS stuttering. \nIf false uploading will be done on Minecraft's main rendering thread. \n\nSetting this to false may reduce crashes or corrupted geometry on systems with an AMD GPU when Sodium is installed.",
+  
+  
+  
   "distanthorizons.config.client.advanced.autoUpdater":
-  "Auto Updater",
+    "Auto Updater",
   "distanthorizons.config.client.advanced.autoUpdater.enableAutoUpdater":
-  "Enable automatic updates",
+    "Enable automatic updates",
   "distanthorizons.config.client.advanced.autoUpdater.enableSilentUpdates":
-  "Enable Silent Updates",
+    "Enable Silent Updates",
   "distanthorizons.config.client.advanced.autoUpdater.enableSilentUpdates.@tooltip":
-  "Automatically updates the mod when an update is available",
+    "Automatically updates the mod when an update is available",
   "distanthorizons.config.client.advanced.autoUpdater.updateBranch":
-  "Update Branch",
+    "Update Branch",
   "distanthorizons.config.client.advanced.autoUpdater.updateBranch.@tooltip":
-  "Where to download the latest update from.\n\nStable: Stable builds from Modrinth\nNightly: Nightly builds from Gitlab",
-
-
-
+    "Where to download the latest update from.\n\nStable: Stable builds from Modrinth\nNightly: Nightly builds from Gitlab",
+    
+    
+    
   "distanthorizons.config.client.advanced.logging":
-  "Logging",
+    "Logging",
   "distanthorizons.config.client.advanced.logging.@tooltip":
-  "Controls how logging should be handled.",
-
+    "Controls how logging should be handled.",
+    
   "distanthorizons.config.client.advanced.logging.logWorldGenEvent":
-  "World Gen Events",
+    "World Gen Events",
   "distanthorizons.config.client.advanced.logging.logWorldGenPerformance":
-  "World Gen Performance",
+    "World Gen Performance",
   "distanthorizons.config.client.advanced.logging.logWorldGenLoadEvent":
-  "World Gen Load Events",
+    "World Gen Load Events",
   "distanthorizons.config.client.advanced.logging.logLodBuilderEvent":
-  "Lod Builder Events",
+    "Lod Builder Events",
   "distanthorizons.config.client.advanced.logging.logRendererBufferEvent":
-  "Renderer Buffer Events",
+    "Renderer Buffer Events",
   "distanthorizons.config.client.advanced.logging.logRendererGLEvent":
-  "OpenGL Events",
+    "OpenGL Events",
   "distanthorizons.config.client.advanced.logging.logFileReadWriteEvent":
-  "File Read/Write Events",
+    "File Read/Write Events",
   "distanthorizons.config.client.advanced.logging.logFileSubDimEvent":
-  "File Sub Dimension Events",
+    "File Sub Dimension Events",
   "distanthorizons.config.client.advanced.logging.logNetworkEvent":
-  "Network Events",
+    "Network Events",
   "distanthorizons.config.client.advanced.logging.showLowMemoryWarningOnStartup":
-  "Show Low Memory Warning",
+    "Show Low Memory Warning",
   "distanthorizons.config.client.advanced.logging.showReplayWarningOnStartup":
-  "Show Replay Warning",
+    "Show Replay Warning",
   "distanthorizons.config.client.advanced.logging.showModCompatibilityWarningsOnStartup":
-  "Show Mod Compatibility Warnings",
-
-
-
+    "Show Mod Compatibility Warnings",
+    
+    
+    
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen":
-  "Debug Config Screen",
-
+    "Debug Config Screen",
+    
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.debugConfigScreenNote":
-  "This screen is to debug features of the config screen",
+    "This screen is to debug features of the config screen",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.boolTest":
-  "Boolean test",
+    "Boolean test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.byteTest":
-  "Byte test",
+    "Byte test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.intTest":
-  "Integer test",
+    "Integer test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.doubleTest":
-  "Double test",
+    "Double test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.shortTest":
-  "Short test",
+    "Short test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.longTest":
-  "Long test",
+    "Long test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.floatTest":
-  "Float test",
+    "Float test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.stringTest":
-  "String test",
+    "String test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.uiButtonTest":
-  "UI Button test",
+    "UI Button test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.listTest":
-  "List (ArrayList) test",
+    "List (ArrayList) test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.mapTest":
-  "Map (HashMap) test",
+    "Map (HashMap) test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.categoryTest":
-  "Category test",
+    "Category test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.linkableTest":
-  "Linkable test",
+    "Linkable test",
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.linkableTest.@tooltip":
-  "The value of this should be the same as in Category Test",
-
-
+    "The value of this should be the same as in Category Test",
+  
+  
   "distanthorizons.config.client.advanced.debugging.debugWireframe":
-  "Debug Wireframe",
-
+    "Debug Wireframe",
+  
   "distanthorizons.config.client.advanced.debugging.debugWireframe.enableRendering":
-  "Enable Debug Wireframe Rendering",
+    "Enable Debug Wireframe Rendering",
   "distanthorizons.config.client.advanced.debugging.debugWireframe.enableRendering.@tooltip":
-  "If enabled, various wireframes for debugging internal functions will be drawn.",
+    "If enabled, various wireframes for debugging internal functions will be drawn.",
   "distanthorizons.config.client.advanced.debugging.debugWireframe.showWorldGenQueue":
-  "Show World Gen Queue",
+    "Show World Gen Queue",
   "distanthorizons.config.client.advanced.debugging.debugWireframe.showRenderSectionStatus":
-  "Show Render Section Status",
+    "Show Render Section Status",
   "distanthorizons.config.client.advanced.debugging.debugWireframe.showQuadTreeRenderStatus":
-  "Show Quad Tree Render Status",
+    "Show Quad Tree Render Status",
   "distanthorizons.config.client.advanced.debugging.debugWireframe.showFullDataUpdateStatus":
-  "Show Full Data Update Status",
+    "Show Full Data Update Status",
 
 
   "distanthorizons.config.client.advanced.debugging.openGl":
-  "Open GL",
+    "Open GL",
 
   "distanthorizons.config.client.advanced.debugging.openGl.overrideVanillaGLLogger":
-  "Override Vanilla GL Logger",
+    "Override Vanilla GL Logger",
   "distanthorizons.config.client.advanced.debugging.openGl.overrideVanillaGLLogger.@tooltip":
-  "Defines how OpenGL errors are handled. \n Requires rebooting Minecraft to apply. \nMay incorrectly catch OpenGL errors thrown by other mods.",
+    "Defines how OpenGL errors are handled. \n Requires rebooting Minecraft to apply. \nMay incorrectly catch OpenGL errors thrown by other mods.",
   "distanthorizons.config.client.advanced.debugging.openGl.glErrorHandlingMode":
-  "OpenGL Error Handling Mode",
+    "OpenGL Error Handling Mode",
   "distanthorizons.config.client.advanced.debugging.openGl.glErrorHandlingMode.@tooltip":
-  "Defines how OpenGL errors are handled. \n Requires rebooting Minecraft to apply. \nMay incorrectly catch OpenGL errors thrown by other mods.",
-
+    "Defines how OpenGL errors are handled. \n Requires rebooting Minecraft to apply. \nMay incorrectly catch OpenGL errors thrown by other mods.",
+    
   "distanthorizons.config.client.advanced.debugging.openGl.glContextMajorVersion":
-  "OpenGL Major Version",
+    "OpenGL Major Version",
   "distanthorizons.config.client.advanced.debugging.openGl.glContextMajorVersion.@tooltip":
-  "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
+    "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
   "distanthorizons.config.client.advanced.debugging.openGl.glContextMinorVersion":
-  "OpenGL Minor Version",
+    "OpenGL Minor Version",
   "distanthorizons.config.client.advanced.debugging.openGl.glContextMinorVersion.@tooltip":
-  "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
-
+    "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
+    
   "distanthorizons.config.client.advanced.debugging.openGl.glProfileMode":
-  "OpenGL Profile Mode",
+    "OpenGL Profile Mode",
   "distanthorizons.config.client.advanced.debugging.openGl.glProfileMode.@tooltip":
-  "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
+    "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
   "distanthorizons.config.client.advanced.debugging.openGl.enableGlForwardCompatibilityMode":
-  "Enable OpenGL Forward Compatibility Mode",
+    "Enable OpenGL Forward Compatibility Mode",
   "distanthorizons.config.client.advanced.debugging.openGl.enableGlForwardCompatibilityMode.@tooltip":
-  "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
+    "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
   "distanthorizons.config.client.advanced.debugging.openGl.enableGlDebugContext":
-  "Enable OpenGL Debug Context",
+    "Enable OpenGL Debug Context",
   "distanthorizons.config.client.advanced.debugging.openGl.enableGlDebugContext.@tooltip":
-  "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
-
-
+    "Requires rebooting Minecraft to apply. \nMore information available in the config file.",
+    
+  
   "distanthorizons.config.client.resetSettingsConfirmation":
-  "Reset All Settings?",
-
+    "Reset All Settings?",
+  
   "distanthorizons.config.client.resetSettingsConfirmation.resetConfirmationNote":
-  "Are you sure? This cannot be undone.",
+    "Are you sure? This cannot be undone.",
   "distanthorizons.config.client.resetSettingsConfirmation.resetAllSettings":
-  "Reset All Settings",
-
-
-
+    "Reset All Settings",
+  
+    
+    
   "distanthorizons.config.enum.EDhApiQualityPreset.CUSTOM":
-  "Custom",
+    "Custom",
   "distanthorizons.config.enum.EDhApiQualityPreset.MINIMUM":
-  "Minimum",
+    "Minimum",
   "distanthorizons.config.enum.EDhApiQualityPreset.LOW":
-  "Low",
+    "Low",
   "distanthorizons.config.enum.EDhApiQualityPreset.MEDIUM":
-  "Medium",
+    "Medium",
   "distanthorizons.config.enum.EDhApiQualityPreset.HIGH":
-  "High",
+    "High",
   "distanthorizons.config.enum.EDhApiQualityPreset.EXTREME":
-  "Extreme",
-
+    "Extreme",
+    
   "distanthorizons.config.enum.EDhApiThreadPreset.CUSTOM":
-  "Custom",
+    "Custom",
   "distanthorizons.config.enum.EDhApiThreadPreset.MINIMAL_IMPACT":
-  "Minimal Impact",
+    "Minimal Impact",
   "distanthorizons.config.enum.EDhApiThreadPreset.LOW_IMPACT":
-  "Low Impact",
+    "Low Impact",
   "distanthorizons.config.enum.EDhApiThreadPreset.BALANCED":
-  "Balanced",
+    "Balanced",
   "distanthorizons.config.enum.EDhApiThreadPreset.AGGRESSIVE":
-  "Aggressive",
+    "Aggressive",
   "distanthorizons.config.enum.EDhApiThreadPreset.I_PAID_FOR_THE_WHOLE_CPU":
-  "I Paid For The Whole CPU",
-
+    "I Paid For The Whole CPU",
+    
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.BLOCK":
-  "Block",
+    "Block",
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.TWO_BLOCKS":
-  "2 blocks",
+    "2 blocks",
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.FOUR_BLOCKS":
-  "4 blocks",
+    "4 blocks",
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.HALF_CHUNK":
-  "Half a chunk",
+    "Half a chunk",
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.CHUNK":
-  "Chunk",
-
+    "Chunk",
+    
   "distanthorizons.config.enum.EDhApiVerticalQuality.HEIGHT_MAP":
-  "1. Height Map",
+    "1. Height Map",
   "distanthorizons.config.enum.EDhApiVerticalQuality.LOW":
-  "2. Low",
+    "2. Low",
   "distanthorizons.config.enum.EDhApiVerticalQuality.MEDIUM":
-  "3. Medium",
+    "3. Medium",
   "distanthorizons.config.enum.EDhApiVerticalQuality.HIGH":
-  "4. High",
+    "4. High",
   "distanthorizons.config.enum.EDhApiVerticalQuality.VERY_HIGH":
-  "5. Very High",
+    "5. Very High",
   "distanthorizons.config.enum.EDhApiVerticalQuality.EXTREME":
-  "6. Extreme",
+    "6. Extreme",
   "distanthorizons.config.enum.EDhApiVerticalQuality.PIXEL_ART":
-  "7. Pixel Art",
-
+    "7. Pixel Art",
+    
   "distanthorizons.config.enum.EDhApiHorizontalQuality.LOWEST":
-  "Lowest",
+    "Lowest",
   "distanthorizons.config.enum.EDhApiHorizontalQuality.LOW":
-  "Low",
+    "Low",
   "distanthorizons.config.enum.EDhApiHorizontalQuality.MEDIUM":
-  "Medium",
+    "Medium",
   "distanthorizons.config.enum.EDhApiHorizontalQuality.HIGH":
-  "High",
+    "High",
   "distanthorizons.config.enum.EDhApiHorizontalQuality.EXTREME":
-  "Extreme",
+    "Extreme",
   "distanthorizons.config.enum.EDhApiHorizontalQuality.UNLIMITED":
-  "Unlimited",
-
+    "Unlimited",
+    
   "distanthorizons.config.enum.EDhApiTransparency.DISABLED":
-  "Disabled",
+    "Disabled",
   "distanthorizons.config.enum.EDhApiTransparency.FAKE":
-  "Fake",
+    "Fake",
   "distanthorizons.config.enum.EDhApiTransparency.COMPLETE":
-  "Complete",
-
+    "Complete",
+    
   "distanthorizons.config.enum.EDhApiFogDistance.NEAR":
-  "Near",
+    "Near",
   "distanthorizons.config.enum.EDhApiFogDistance.FAR":
-  "Far",
+    "Far",
   "distanthorizons.config.enum.EDhApiFogDistance.NEAR_AND_FAR":
-  "Near and far",
-
+    "Near and far",
+    
   "distanthorizons.config.enum.EDhApiFogDrawMode.USE_OPTIFINE_SETTING":
-  "Use modded settings",
+    "Use modded settings",
   "distanthorizons.config.enum.EDhApiFogDrawMode.FOG_ENABLED":
-  "Enabled",
+    "Enabled",
   "distanthorizons.config.enum.EDhApiFogDrawMode.FOG_DISABLED":
-  "Disabled",
+    "Disabled",
   "distanthorizons.config.enum.EDhApiFogColorMode.USE_WORLD_FOG_COLOR":
-  "Use world fog",
+    "Use world fog",
   "distanthorizons.config.enum.EDhApiFogColorMode.USE_SKY_COLOR":
-  "Use sky color",
-
+    "Use sky color",
+    
   "distanthorizons.config.enum.EDhApiFogFalloff.LINEAR":
-  "Linear",
+    "Linear",
   "distanthorizons.config.enum.EDhApiFogFalloff.EXPONENTIAL":
-  "Exponential",
+    "Exponential",
   "distanthorizons.config.enum.EDhApiFogFalloff.EXPONENTIAL_SQUARED":
-  "Exponential squared",
-
+    "Exponential squared",
+    
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.BASIC":
-  "Basic",
+    "Basic",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.IGNORE_HEIGHT":
-  "Ignore Height",
+    "Ignore Height",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.ADDITION":
-  "Addition",
+    "Addition",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.MAX":
-  "Max",
+    "Max",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.MULTIPLY":
-  "Multiply",
+    "Multiply",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.INVERSE_MULTIPLY":
-  "Inverse Multiply",
+    "Inverse Multiply",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.LIMITED_ADDITION":
-  "Limited Addition",
+    "Limited Addition",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.MULTIPLY_ADDITION":
-  "Multiply Addition",
+    "Multiply Addition",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.INVERSE_MULTIPLY_ADDITION":
-  "Inverse Multiply Addition",
+    "Inverse Multiply Addition",
   "distanthorizons.config.enum.EDhApiHeightFogMixMode.AVERAGE":
-  "Average",
-
+    "Average",
+    
   "distanthorizons.config.enum.EDhApiHeightFogMode.ABOVE_CAMERA":
-  "Above Camera",
+    "Above Camera",
   "distanthorizons.config.enum.EDhApiHeightFogMode.BELOW_CAMERA":
-  "Below Camera",
+    "Below Camera",
   "distanthorizons.config.enum.EDhApiHeightFogMode.ABOVE_AND_BELOW_CAMERA":
-  "Above And Below Camera",
+    "Above And Below Camera",
   "distanthorizons.config.enum.EDhApiHeightFogMode.ABOVE_SET_HEIGHT":
-  "Above Set Height",
+    "Above Set Height",
   "distanthorizons.config.enum.EDhApiHeightFogMode.BELOW_SET_HEIGHT":
-  "Below Set Height",
+    "Below Set Height",
   "distanthorizons.config.enum.EDhApiHeightFogMode.ABOVE_AND_BELOW_SET_HEIGHT":
-  "Above And Below Set Height",
-
+    "Above And Below Set Height",
+    
   "distanthorizons.config.enum.EDhApiVanillaOverdraw.NEVER":
-  "Never",
+    "Never",
   "distanthorizons.config.enum.EDhApiVanillaOverdraw.DYNAMIC":
-  "Dynamic",
+    "Dynamic",
   "distanthorizons.config.enum.EDhApiVanillaOverdraw.ALWAYS":
-  "Always",
-
+    "Always",
+    
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.NONE":
-  "Existing Only",
+    "Existing Only",
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.PRE_EXISTING_ONLY":
-  "Pre-Existing Chunks only",
+    "Pre-Existing Chunks only",
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.BIOME_ONLY":
-  "Biome only",
+    "Biome only",
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.BIOME_ONLY_SIMULATE_HEIGHT":
-  "Biome only simulate height",
+    "Biome only simulate height",
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.SURFACE":
-  "Surface",
+    "Surface",
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.FEATURES":
-  "Features",
+    "Features",
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.FULL":
-  "Full",
-
+    "Full",
+    
   "distanthorizons.config.enum.EDhApiDataCompressionMode.UNCOMPRESSED":
-  "Uncompressed",
+    "Uncompressed",
   "distanthorizons.config.enum.EDhApiDataCompressionMode.LZ4":
-  "Fast/Big - LZ4",
+    "Fast/Big - LZ4",
   "distanthorizons.config.enum.EDhApiDataCompressionMode.LZMA2":
-  "Slow/Small - LZMA2",
-
+    "Slow/Small - LZMA2",
+    
   "distanthorizons.config.enum.EDhApiWorldCompressionMode.MERGE_SAME_BLOCKS":
-  "1. Merge Same Blocks",
+    "1. Merge Same Blocks",
   "distanthorizons.config.enum.EDhApiWorldCompressionMode.VISUALLY_EQUAL":
-  "2. Visually Equal",
-
+    "2. Visually Equal",
+    
   "distanthorizons.config.enum.EDhApiLightGenerationMode.DISTANT_HORIZONS":
-  "Distant Horizons",
+    "Distant Horizons",
   "distanthorizons.config.enum.EDhApiLightGenerationMode.MINECRAFT":
-  "Minecraft",
-
+    "Minecraft",
+    
   "distanthorizons.config.enum.EDhApiGenerationPriority.AUTO":
-  "Auto",
+    "Auto",
   "distanthorizons.config.enum.EDhApiGenerationPriority.NEAR_FIRST":
-  "Near first",
+    "Near first",
   "distanthorizons.config.enum.EDhApiGenerationPriority.BALANCED":
-  "Balanced",
+    "Balanced",
   "distanthorizons.config.enum.EDhApiGenerationPriority.FAR_FIRST":
-  "Far first",
-
+    "Far first",
+    
   "distanthorizons.config.enum.EDhApiBlocksToAvoid.NONE":
-  "None",
+    "None",
   "distanthorizons.config.enum.EDhApiBlocksToAvoid.NON_COLLIDING":
-  "Non-Colliding",
-
+    "Non-Colliding",
+    
   "distanthorizons.config.enum.EDhApiOverdrawPrevention.NONE":
-  "None",
+    "None",
   "distanthorizons.config.enum.EDhApiOverdrawPrevention.LIGHT":
-  "Light",
+    "Light",
   "distanthorizons.config.enum.EDhApiOverdrawPrevention.MEDIUM":
-  "Medium",
+    "Medium",
   "distanthorizons.config.enum.EDhApiOverdrawPrevention.HEAVY":
-  "Heavy",
-
+    "Heavy",
+    
   "distanthorizons.config.enum.EDhApiServerFolderNameMode.NAME_ONLY":
-  "Name Only",
+    "Name Only",
   "distanthorizons.config.enum.EDhApiServerFolderNameMode.IP_ONLY":
-  "IP Only",
+    "IP Only",
   "distanthorizons.config.enum.EDhApiServerFolderNameMode.NAME_IP":
-  "Name and IP",
+    "Name and IP",
   "distanthorizons.config.enum.EDhApiServerFolderNameMode.NAME_IP_PORT":
-  "Name, IP, Port",
+    "Name, IP, Port",
   "distanthorizons.config.enum.EDhApiServerFolderNameMode.NAME_IP_PORT_MC_VERSION":
-  "Name, IP, Port, MC version",
-
+    "Name, IP, Port, MC version",
+    
   "distanthorizons.config.enum.EDhApiRendererMode.DEFAULT":
-  "Default",
+    "Default",
   "distanthorizons.config.enum.EDhApiRendererMode.DEBUG":
-  "Debug",
+    "Debug",
   "distanthorizons.config.enum.EDhApiRendererMode.DISABLED":
-  "Disabled",
-
+    "Disabled",
+    
   "distanthorizons.config.enum.EDhApiDebugRendering.OFF":
-  "Off",
+    "Off",
   "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_DETAIL":
-  "Show detail",
+    "Show detail",
   "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_GENMODE":
-  "Show generation mode",
+    "Show generation mode",
   "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_BLOCK_MATERIAL":
-  "Show Material",
+    "Show Material",
   "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_OVERLAPPING_QUADS":
-  "Show overlapping quads",
+    "Show overlapping quads",
   "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_RENDER_SOURCE_FLAG":
-  "Show render source flag",
-
+    "Show render source flag",
+    
   "distanthorizons.config.enum.EDhApiGLErrorHandlingMode.IGNORE":
-  "Ignore",
+    "Ignore",
   "distanthorizons.config.enum.EDhApiGLErrorHandlingMode.LOG":
-  "Log",
+    "Log",
   "distanthorizons.config.enum.EDhApiGLErrorHandlingMode.LOG_THROW":
-  "Log-Throw",
-
+    "Log-Throw",
+    
   "distanthorizons.config.enum.EDhApiGlProfileMode.CORE":
-  "Core",
+    "Core",
   "distanthorizons.config.enum.EDhApiGlProfileMode.COMPAT":
-  "Compat",
+    "Compat",
   "distanthorizons.config.enum.EDhApiGlProfileMode.ANY":
-  "Any",
-
+    "Any",
+    
   "distanthorizons.config.enum.EDhApiLoggerMode.DISABLED":
-  "Disabled",
+    "Disabled",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_ALL_TO_FILE":
-  "File: All, Chat: Off",
+    "File: All, Chat: Off",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_ERROR_TO_CHAT":
-  "File: All, Chat: Error",
+    "File: All, Chat: Error",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_WARNING_TO_CHAT":
-  "File: All, Chat: Warning",
+    "File: All, Chat: Warning",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_INFO_TO_CHAT":
-  "File: All, Chat: Info",
+    "File: All, Chat: Info",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_DEBUG_TO_CHAT":
-  "File: All, Chat: Debug",
+    "File: All, Chat: Debug",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_ALL_TO_CHAT":
-  "File: All, Chat: All",
+    "File: All, Chat: All",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_ERROR_TO_CHAT_AND_FILE":
-  "File: Error, Chat: Error",
+    "File: Error, Chat: Error",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_WARNING_TO_CHAT_AND_FILE":
-  "File: Warning, Chat: Warning",
+    "File: Warning, Chat: Warning",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_INFO_TO_CHAT_AND_FILE":
-  "File: Info, Chat: Info",
+    "File: Info, Chat: Info",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_DEBUG_TO_CHAT_AND_FILE":
-  "File: Debug, Chat: Debug",
+    "File: Debug, Chat: Debug",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE":
-  "File: Info, Chat: Warning",
+    "File: Info, Chat: Warning",
   "distanthorizons.config.enum.EDhApiLoggerMode.LOG_ERROR_TO_CHAT_AND_INFO_TO_FILE":
-  "File: Info, Chat: Error",
-
+    "File: Info, Chat: Error",
+    
   "distanthorizons.config.enum.EDhApiGpuUploadMethod.AUTO":
-  "Auto",
+    "Auto",
   "distanthorizons.config.enum.EDhApiGpuUploadMethod.BUFFER_STORAGE":
-  "Buffer storage",
+    "Buffer storage",
   "distanthorizons.config.enum.EDhApiGpuUploadMethod.SUB_DATA":
-  "Sub data",
+    "Sub data",
   "distanthorizons.config.enum.EDhApiGpuUploadMethod.BUFFER_MAPPING":
-  "Buffer mapping",
+    "Buffer mapping",
   "distanthorizons.config.enum.EDhApiGpuUploadMethod.DATA":
-  "Data",
-
+    "Data",
+    
   "distanthorizons.config.enum.EDhApiBufferRebuildTimes.CONSTANT":
-  "Constant",
+    "Constant",
   "distanthorizons.config.enum.EDhApiBufferRebuildTimes.FREQUENT":
-  "Frequent",
+    "Frequent",
   "distanthorizons.config.enum.EDhApiBufferRebuildTimes.NORMAL":
-  "Normal",
+    "Normal",
   "distanthorizons.config.enum.EDhApiBufferRebuildTimes.RARE":
-  "Rare",
-
+    "Rare",
+    
   "distanthorizons.config.enum.EDhApiLodShading.AUTO":
-  "Auto",
+    "Auto",
   "distanthorizons.config.enum.EDhApiLodShading.ENABLED":
-  "Enabled",
+    "Enabled",
   "distanthorizons.config.enum.EDhApiLodShading.DISABLED":
-  "Disabled",
+    "Disabled",
 
   "distanthorizons.config.enum.EDhApiUpdateBranch.STABLE":
-  "Stable",
+    "Stable",
   "distanthorizons.config.enum.EDhApiUpdateBranch.NIGHTLY":
-  "Nightly",
+    "Nightly",
   "distanthorizons.config.enum.EDhApiUpdateBranch.AUTO":
-  "Auto",
+    "Auto",
 
   "distanthorizons.config.enum.EDhApiGrassSideRendering.AS_GRASS":
-  "As Grass",
+    "As Grass",
   "distanthorizons.config.enum.EDhApiGrassSideRendering.FADE_TO_DIRT":
-  "Fade To Dirt",
+    "Fade To Dirt",
   "distanthorizons.config.enum.EDhApiGrassSideRendering.AS_DIRT":
-  "As Dirt"
-
+    "As Dirt"
+    
 }
