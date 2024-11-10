@@ -29,7 +29,7 @@
   "distanthorizons.updater.title":
   "Distant Horizons オートアップデーター",
   "distanthorizons.updater.text1":
-  "§l新しいアップデートがあります！",
+  "§l新しいバージョンが利用可能です！",
   "distanthorizons.updater.text2":
   "§f%s§f から %s§f にアップデートしますか？",
   "distanthorizons.updater.later":
@@ -39,9 +39,9 @@
   "distanthorizons.updater.update":
   "アップデート",
   "distanthorizons.updater.update.@tooltip":
-  "1回限りのアップデートを行います\n（ゲーム終了時にアップデート）",
+  "1回限りのアップデートを行います\n（ゲーム終了時に行われます）",
   "distanthorizons.updater.silent":
-  "常にサイレントアップデート",
+  "常にサイレントアップデートを行う",
   "distanthorizons.updater.silent.@tooltip":
   "アップデートがあるたびに自動でアップデートを行います\n(§6警告§r: ユーザーにはアップデート確認が表示されませんが、最新の状態が維持されます)",
   "distanthorizons.updater.waitingForClose":
@@ -55,119 +55,132 @@
   "distanthorizons.config.client":
   "クライアント",
 
+
   "distanthorizons.config.client.quickEnableRendering":
   "レンダリングを有効にする",
   "distanthorizons.config.client.quickEnableRendering.@tooltip":
-  "Distant Horizons が LOD をレンダリングするかどうかを決定します。",
+  "Distant HorizonsがLODをレンダリングするかどうかを決定します。",
 
   "distanthorizons.config.client.qualityPresetSetting":
   "クオリティプリセット",
   "distanthorizons.config.client.qualityPresetSetting.@tooltip":
-  "Distant Horizons のレンダリング品質をすばやく変更するために、複数のグラフィック設定を変更します。\n\nGPUの使用率が高すぎる場合やフレームレートに問題がある場合はこの設定を下げてください。",
+  "Distant Horizonsの描画品質を素早く変更するために、いくつかのグラフィック設定を調整します。\n\nGPU使用率が非常に高い場合や、フレームレートの問題がある場合は、この設定を下げてください。",
+
   "distanthorizons.config.client.threadPresetSetting":
   "CPU負荷",
   "distanthorizons.config.client.threadPresetSetting.@tooltip":
-  "Distant Horizons が使用するスレッド数を変更します。\n\nこの設定を上げると、Distant Generator の速度や LOD の読み込み速度が向上しますが、\nCPUとメモリの使用率も上がり、スタッタリングが発生する場合があります。\n\n注: コア数が4つ以下のCPUではこの設定の効果が限定され、\n一部の設定は同様の結果になります。",
+  "Distant Horizonsが使用するスレッド数を調整します。\n\nこの設定を上げると、地形生成速度やLODの読み込み速度が向上しますが、\nCPUとメモリの使用率が増加し、カクつきが生じる場合があります。\n\n注：4コア以下のCPUでは、この設定の効果は限定的で、設定を変更しても結果が似たようになることがあります。",
 
   "distanthorizons.config.client.optionsButton":
-  "オプションボタンを表示する",
+  "オプションボタンを表示",
   "distanthorizons.config.client.optionsButton.@tooltip":
-  "FOVボタンの左に設定ボタンを表示します",
+  "視野角ボタンの左に設定ボタンを表示します",
+
+
 
   "distanthorizons.config.client.advanced":
-  "詳細オプション",
+  "詳細設定",
+
 
   "distanthorizons.config.client.advanced.graphics":
   "グラフィック",
   "distanthorizons.config.client.advanced.graphics.quality":
-  "描画品質",
+  "レンダリングクオリティ",
 
 
   "distanthorizons.config.client.advanced.graphics.quality.maxHorizontalResolution":
-  "最大水平解像度",
+  "最大横解像度",
   "distanthorizons.config.client.advanced.graphics.quality.maxHorizontalResolution.@tooltip":
-  "LOD の最大詳細度でレンダリングされます。\n\n§6最速:§r チャンク単位\n§6最高:§r ブロック単位",
+  "最高の詳細度でLODを描画する解像度です。\n\n§6最速:§r チャンク単位\n§6最高品質:§r ブロック単位",
+
   "distanthorizons.config.client.advanced.graphics.quality.lodChunkRenderDistanceRadius":
-  "LOD チャンクレンダリング距離半径",
+  "LODチャンク描画距離半径",
   "distanthorizons.config.client.advanced.graphics.quality.lodChunkRenderDistanceRadius.@tooltip":
-  "Distant Horizons のレンダリング距離（チャンク単位）です。\n\n注: これは目標値です。他のグラフィック設定によって、実際のレンダリング距離がこの数値よりも\n大きくなったり小さくなったりすることがあります。",
+  "Distant Horizonsの描画距離をチャンク数で設定します。\n\n注：この数値はあくまで目安です。\n他のグラフィック設定により、描画距離がこの数値より\n長くなる場合や短くなる場合があります。",
+
   "distanthorizons.config.client.advanced.graphics.quality.verticalQuality":
   "垂直品質",
   "distanthorizons.config.client.advanced.graphics.quality.verticalQuality.@tooltip":
-  "LOD が張り出し、洞窟、崖面などをどの程度表現するかを設定します。\n\n高い設定はメモリとGPUの使用量を増加させます。",
+  "LODでオーバーハングや洞窟、崖などの表現力を調整します。\n\n高い設定にするとメモリやGPUの使用量が増加します。",
+
   "distanthorizons.config.client.advanced.graphics.quality.horizontalScale":
   "水平スケール",
   "distanthorizons.config.client.advanced.graphics.quality.horizontalScale.@tooltip":
-  "LOD の品質がどのくらい早く低下するかを設定します。\n\n数値を大きくすると遠くの地形がより良く見えるようになりますが、メモリとGPUの使用量が増加します。",
+  "LODの品質がどの程度の距離で低下するかを調整します。\n\n数値を大きくすると遠くの地形が綺麗に見えますが、\nメモリやGPUの使用量が増加します。",
+
   "distanthorizons.config.client.advanced.graphics.quality.horizontalQuality":
-  "LOD 品質低下距離",
+  "LOD品質低下距離",
   "distanthorizons.config.client.advanced.graphics.quality.horizontalQuality.@tooltip":
-  "品質低下の間隔がどのくらい離れているかを設定します。\n\n高い設定は低下間の距離を増加させますが、メモリとGPUの使用量も増加します。",
+  "品質低下の間隔を調整します。\n\n設定を高くすると品質低下の間隔が広がりますが、\nメモリやGPUの使用量が増加します。",
+
   "distanthorizons.config.client.advanced.graphics.quality.transparency":
   "透明度",
+
   "distanthorizons.config.client.advanced.graphics.quality.blocksToIgnore":
   "無視するブロック",
   "distanthorizons.config.client.advanced.graphics.quality.blocksToIgnore.@tooltip":
-  "LOD を生成する際に無視するブロックの種類を定義します。",
+  "LOD生成時に無視するブロックの種類を定義します。",
+
   "distanthorizons.config.client.advanced.graphics.quality.tintWithAvoidedBlocks":
-  "無視するブロックで色付け",
+  "無視ブロックで色付け",
   "distanthorizons.config.client.advanced.graphics.quality.tintWithAvoidedBlocks.@tooltip":
-  "§4注意: 雪、カーペット、トラップドアの見栄えが悪くなります§r\n無視されたブロックの下にあるブロックに、そのブロックの色を反映させますか？\n§6True:§r 草の上に赤い花があると、その下の草が赤く着色されます。\n§6False:§r 無視されたブロックが表面の色を変更しません。",
+  "§4注: 雪、カーペット、トラップドアの見栄えが悪くなります§r\n無視されるブロックの下にあるブロックが\nその上の無視ブロックの色に染まるかどうかを設定します。\n\n§6True:§r 赤い花が草の上にあると、その草が赤く色付けされます\n§6False:§r 無視したブロックによる下のブロックの色変更はありません。",
+
   "distanthorizons.config.client.advanced.graphics.quality.lodBiomeBlending":
   "バイオームブレンディング",
   "distanthorizons.config.client.advanced.graphics.quality.lodBiomeBlending.@tooltip":
-  "LOD エリア用のバニラのバイオームブレンディング設定と同じです。\n\n'0'以外に設定すると、LOD生成時間が大幅に影響を受け、\n三角形数が増加します。チャンク生成速度にも影響が大きいです。\n\n'0'はバニラのバイオームブレンディング '1x1'に相当し、\n'1'は '3x3'、'2'は '5x5'に相当します。\n",
+  "LODエリアに対するバイオームブレンディング設定です（バニラ設定と同様）。\n\n'0'以外の値にするとLODの生成時間が大幅に増え、\nトライアングル数も増加します。チャンク生成速度にも\n大きく影響するため、数値が大きすぎる設定には注意してください。\n\n'0' はバニラの「1x1」と同じ、\n'1' はバニラの「3x3」、\n'2' はバニラの「5x5」に相当します。\n",
 
 
   "distanthorizons.config.client.advanced.graphics.fog":
   "霧",
 
   "distanthorizons.config.client.advanced.graphics.fog.drawMode":
-  "霧の描画モード",
+  "Fog Draw Mode",
   "distanthorizons.config.client.advanced.graphics.fog.drawMode.@tooltip":
-  "LOD 上で霧をレンダリングするタイミングを設定します。",
+  "When fog will be rendered on the LODs.",
   "distanthorizons.config.client.advanced.graphics.fog.distance":
-  "霧の距離",
+  "Fog Distance",
   "distanthorizons.config.client.advanced.graphics.fog.distance.@tooltip":
-  "LOD 上で霧がレンダリングされる距離を設定します。",
+  "The distance(s) Fog will be rendered on the LODs.",
   "distanthorizons.config.client.advanced.graphics.fog.colorMode":
-  "霧の色モード",
+  "Fog Color Mode",
   "distanthorizons.config.client.advanced.graphics.fog.colorMode.@tooltip":
-  "LOD 上の霧の色を設定します。",
+  "The color of the fog on LODs.",
   "distanthorizons.config.client.advanced.graphics.fog.disableVanillaFog":
-  "バニラ霧を無効化",
+  "Disable Vanilla Fog",
   "distanthorizons.config.client.advanced.graphics.fog.disableVanillaFog.@tooltip":
-  "§6True:§r Minecraft の通常チャンクで霧を無効化します。\n§6False:§r Minecraft が通常通り霧をレンダリングします。\n\n他の霧を編集する Mod と干渉する可能性があります。\nバニラチャンクが霧で完全に覆われている場合は無効化してください。",
+  "§6True:§r disables Minecraft's fog on vanilla chunks.\n§6False:§r Minecraft renders fog like normal.\n\nMay cause issues with other mods that edit fog.\nDisable if vanilla chunks are completely covered in fog.",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog":
-  "高度な霧オプション",
+  "Advanced Fog Options",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogStart":
-  "遠距離霧開始位置",
+  "Far Fog Start",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogStart.@tooltip":
-  "遠距離霧の開始位置を設定します。\n\n'0.0': プレイヤーの位置で霧が始まります。\n'1.0': 霧開始円が LOD レンダリング距離の四角形にちょうど収まります。\n'1.414': LOD レンダリング距離の四角形が霧開始円にちょうど収まります。\n",
+  "Where should the far fog start? \n\n  '0.0': Fog start at player's position.\n  '1.0': The fog-start's circle fit just in the lod render distance square.\n'1.414': The lod render distance square fit just in the fog-start's circle.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogEnd":
-  "遠距離霧終了位置",
+  "Far Fog End",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogEnd.@tooltip":
-  "遠距離霧の終了位置を設定します。\n\n'0.0': プレイヤーの位置で霧が終了します。\n'1.0': 霧終了円が LOD レンダリング距離の四角形にちょうど収まります。\n'1.414': LOD レンダリング距離の四角形が霧終了円にちょうど収まります。\n",
+  "Where should the far fog end? \n\n  '0.0': Fog end at player's position.\n  '1.0': The fog-end's circle fit just in the lod render distance square.\n'1.414': The lod render distance square fit just in the fog-end's circle.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogMin":
-  "遠距離霧の最小濃度",
+  "Far Fog Min",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogMin.@tooltip":
-  "霧の最小濃度を設定します。\n\n'0.0': 霧なし。\n'1.0': 完全に霧の色。\n",
+  "What is the minimum fog thickness? \n\n  '0.0': No fog at all.\n  '1.0': Fully fog color.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogMax":
-  "遠距離霧の最大濃度",
+  "Far Fog Max",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogMax.@tooltip":
-  "霧の最大濃度を設定します。\n\n'0.0': 霧なし。\n'1.0': 完全に霧の色。\n",
+  "What is the maximum fog thickness? \n\n  '0.0': No fog at all.\n  '1.0': Fully fog color.\n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogFalloff":
-  "遠距離霧の減衰",
+  "Far Fog Falloff",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogFalloff.@tooltip":
-  "霧の濃度の計算方法を設定します。\n\nLINEAR: 距離に基づいて線形（'density' を無視）\nEXPONENTIAL: 1/(e^(距離×密度))\nEXPONENTIAL_SQUARED: 1/(e^((距離×密度)^2))\n",
+  "How should the fog thickness should be calculated? \n\nLINEAR: Linear based on distance (will ignore 'density')\nEXPONENTIAL: 1/(e^(distance*density)) \nEXPONENTIAL_SQUARED: 1/(e^((distance*density)^2) \n",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogDensity":
-  "遠距離霧の密度",
+  "Far Fog Density",
   "distanthorizons.config.client.advanced.graphics.fog.advancedFog.farFogDensity.@tooltip":
-  "霧の密度を設定します。",
+  "What is the fog density? ",
 
 
   "distanthorizons.config.client.advanced.graphics.ssao":
-  "Ambient Occlusion",
+  "アンビエントオクルージョン",
 
   "distanthorizons.config.client.advanced.graphics.ssao.enabled":
   "Enable Ambient Occlusion",
@@ -241,7 +254,7 @@
 
 
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings":
-  "Noise Texture",
+  "ノイズテクスチャ",
 
   "distanthorizons.config.client.advanced.graphics.noiseTextureSettings.noiseEnabled":
   "Enable Noise Texture",
@@ -262,7 +275,7 @@
 
 
   "distanthorizons.config.client.advanced.graphics.advancedGraphics":
-  "Advanced Graphics Options",
+  "より詳細なグラフィック設定",
 
   "distanthorizons.config.client.advanced.graphics.advancedGraphics.overdrawPrevention":
   "Overdraw Prevention",
@@ -315,49 +328,55 @@
 
 
   "distanthorizons.config.client.advanced.graphics.genericRendering":
-  "Generic Rendering",
+  "一般レンダリング",
 
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableRendering":
-  "Enable Rendering",
+  "レンダリングを有効化",
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableRendering.@tooltip":
-  "If true non terrain objects will be rendered in DH's terrain. \nThis includes beacon beams and clouds.",
+  "有効にすると、DHの地形に建物やビーム、雲などが表示されます。",
+
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableBeaconRendering":
-  "Enable Beacon Rendering",
+  "ビーコン表示を有効化",
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableBeaconRendering.@tooltip":
-  "If true LOD beacon beams will be rendered.",
+  "有効にすると、LODビーコンのビームが表示されます。",
+
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableCloudRendering":
-  "Enable Cloud Rendering",
+  "雲の表示を有効化",
   "distanthorizons.config.client.advanced.graphics.genericRendering.enableCloudRendering.@tooltip":
-  "If true LOD clouds will be rendered.",
+  "有効にすると、LODの雲が表示されます。",
 
 
   "distanthorizons.config.client.advanced.worldGenerator":
-  "World Generator",
+  "ワールド生成",
 
   "distanthorizons.config.client.advanced.worldGenerator.enableDistantGeneration":
-  "Enable Distant Generation",
+  "遠距離生成を有効化",
   "distanthorizons.config.client.advanced.worldGenerator.enableDistantGeneration.@tooltip":
-  "§6True:§r in single player LODs will be generated outside the vanilla render distance.\nNote: this can use a large amount of CPU.\n\n§6False:§r LODs will only generate within the vanilla render distance.",
+  "§6True:§r シングルプレイ時に、バニラの描画距離外でもLODが生成されます。\n注：この設定を有効にするとCPUの使用量が大幅に増加する可能性があります。\n\n§6False:§r バニラの描画距離内でのみLODが生成されます。",
+
   "distanthorizons.config.client.advanced.worldGenerator.distantGeneratorMode":
-  "Distance Generator Mode",
+  "遠距離生成モード",
   "distanthorizons.config.client.advanced.worldGenerator.distantGeneratorMode.@tooltip":
-  "How complicated the generation should be when generating LODs outside the vanilla render distance.",
+  "バニラの描画距離外でLODを生成する際の複雑さを設定します。",
+
   "distanthorizons.config.client.advanced.worldGenerator.worldGenLightingEngine":
-  "Lighting Engine",
+  "ライティングエンジン",
   "distanthorizons.config.client.advanced.worldGenerator.worldGenLightingEngine.@tooltip":
-  "§6Minecraft:§r use Minecraft's lighting engine, gives accurate lighting.\n§6Distant Horizons:§r estimates lighting, shadows won't be as smooth, but is more stable.\n\nIf the LODs appear black, set this to §6Distant Horizons§r.",
+  "§6Minecraft:§r Minecraftのライティングエンジンを使用し、正確なライティングを提供します。\n§6Distant Horizons:§r 照明を簡易的に計算し、影が滑らかではありませんが、より安定しています。\n\nLODが黒く表示される場合は、この設定を§6Distant Horizons§rにしてください。",
+
   "distanthorizons.config.client.advanced.worldGenerator.worldGenerationTimeoutLengthInSeconds":
-  "Timeout Length In Seconds",
+  "タイムアウト秒数",
   "distanthorizons.config.client.advanced.worldGenerator.worldGenerationTimeoutLengthInSeconds.@tooltip":
-  "How long should a world generator thread run for before timing out? \nNote: If you are experiencing timeout errors it is better to lower your CPU usage first \nvia the thread config before changing this value.",
+  "ワールド生成スレッドがタイムアウトするまでの実行時間（秒）を設定します。\n注：タイムアウトエラーが発生する場合、この値を変更する前に\nスレッド設定でCPU使用量を下げることを推奨します。",
+
   "distanthorizons.config.client.advanced.worldGenerator.generationPriority":
-  "Generation Priority",
+  "生成優先度",
   "distanthorizons.config.client.advanced.worldGenerator.generationPriority.@tooltip":
-  "The priority for chunks being generated around the player.",
+  "プレイヤー周辺のチャンク生成の優先度を設定します。",
 
 
   "distanthorizons.config.client.advanced.lodBuilding":
-  "Lod Building",
+  "LOD構築",
 
   "distanthorizons.config.client.advanced.lodBuilding.minTimeBetweenChunkUpdatesInSeconds":
   "Minimum Time Between Chunk Updates In Seconds",
@@ -395,77 +414,86 @@
   "A comma separated list of block resource locations that shouldn't be rendered \nif they are in a 0 sky light underground area. \nNote: air is always included in this list.",
 
   "distanthorizons.config.client.advanced.multiplayer":
-  "Multiplayer",
+  "マルチプレイヤー",
 
   "distanthorizons.config.client.advanced.multiplayer.serverFolderNameMode":
-  "Server Folder Mode",
+  "サーバーフォルダーモード",
   "distanthorizons.config.client.advanced.multiplayer.serverFolderNameMode.@tooltip":
-  "Determines the folder format for local multiplayer data.\n\n§6Name Only:§r\nUses the server browser name. Ex: \"Minecraft Server\"\n§6IP Only:§r\n\"192.168.1.40\"\n§6Name IP:§r\n\"Minecraft Server, IP 192.168.1.40\"\n§6Name, IP, Port:§r\n\"Minecraft Server, IP 192.168.1.40:25565\"\n§6Name, IP, Port, MC Version:§r\n\"Minecraft Server, IP 192.168.1.40:25565, GameVersion 1.18.1\"\n\n§c§lCaution:§r changing while connected to a multiplayer server may cause glitches.",
+  "ローカルマルチプレイヤーデータのフォルダ形式を決定します。\n\n§6名前のみ:§r\nサーバーブラウザの名前を使用します。例: \"Minecraft Server\"\n§6IPのみ:§r\n\"192.168.1.40\"\n§6名前とIP:§r\n\"Minecraft Server, IP 192.168.1.40\"\n§6名前、IP、ポート:§r\n\"Minecraft Server, IP 192.168.1.40:25565\"\n§6名前、IP、ポート、MCバージョン:§r\n\"Minecraft Server, IP 192.168.1.40:25565, GameVersion 1.18.1\"\n\n§c§l注意:§r マルチプレイヤーサーバーに接続中に変更すると不具合が生じる可能性があります。",
+
   "distanthorizons.config.client.advanced.multiplayer.multiverseSimilarityRequiredPercent":
-  "Multiverse Required Similarity %",
+  "マルチバース類似度の必要パーセンテージ",
   "distanthorizons.config.client.advanced.multiplayer.multiverseSimilarityRequiredPercent.@tooltip":
-  "When matching worlds of the same dimension type the\ntested chunk(s) must be at least this percent the same\nin order to be considered the same world.\n\nNote: If you use portals to enter a dimension at two\ndifferent locations this system may think it is two different worlds.\n\n§61.0:§r the chunks must be identical.\n§60.5:§r the chunks must be half the same.\n§60.0:§r disables multi-dimension support\n     only one world will be used per dimension.",
+  "同じディメンションタイプのワールドを一致と見なすには、\nテストするチャンクがこの割合以上一致している必要があります。\n\n注: 2つの異なる場所からポータルで同じディメンションに入ると、\n異なるワールドとして認識される可能性があります。\n\n§61.0:§r チャンクが完全に一致する必要があります。\n§60.5:§r チャンクが半分一致する必要があります。\n§60.0:§r マルチディメンションのサポートを無効化し、\n     各ディメンションにつき1つのワールドのみ使用します。",
+
   "distanthorizons.config.client.advanced.multiplayer.enableMultiverseNetworking":
-  "Networked Multiverse Support",
+  "マルチバースネットワーク対応",
   "distanthorizons.config.client.advanced.multiplayer.enableMultiverseNetworking.@tooltip":
-  "If true Distant Horizons will attempt to communicate with the connected \nserver in order to improve multiverse support.",
+  "有効にすると、Distant Horizonsが接続されたサーバーと通信し、\nマルチバースサポートの改善を試みます。",
+
   "distanthorizons.config.client.advanced.multiplayer.enableServerNetworking":
-  "§4Unimplemented, Dev Use Only§r - Server Support",
+  "§4未実装、開発者専用§r - サーバー対応",
   "distanthorizons.config.client.advanced.multiplayer.enableServerNetworking.@tooltip":
-  "§6Attention:§r this is only for developers and hasn't been implemented. \n\nIf true Distant Horizons will attempt to communicate with the connected \nserver in order to load LODs outside your vanilla render distance. \n\nNote: This requires DH to be installed on the server in order to function.",
+  "§6注意:§r これは開発者専用であり、まだ実装されていません。\n\n有効にすると、Distant Horizonsが接続されたサーバーと通信して、\nバニラ描画距離外のLODを読み込むことを試みます。\n\n注: 機能するにはサーバー側にもDHがインストールされている必要があります。",
 
 
 
   "distanthorizons.config.client.advanced.multiThreading":
-  "Threading",
+  "マルチスレッド設定",
 
   "distanthorizons.config.client.advanced.multiThreading.numberOfWorldGenerationThreads":
-  "NO. of world generation threads",
+  "ワールド生成スレッド数",
   "distanthorizons.config.client.advanced.multiThreading.numberOfWorldGenerationThreads.@tooltip":
-  "How many threads should be used when generating LODs \n outside the normal render distance?\n\nIf you experience stuttering when generating distant LODs, \ndecrease  this number. If you want to increase LOD \ngeneration speed, increase this number.",
+  "通常の描画距離外でLODを生成する際に使用するスレッド数を設定します。\n\n遠くのLODを生成するときにカクつきを感じる場合は、この数を減らしてください。\nLOD生成速度を上げたい場合は、この数を増やしてください。",
+
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForWorldGenerationThreads":
-  "Runtime % for world generation threads",
+  "ワールド生成スレッドの実行割合（%）",
 
   "distanthorizons.config.client.advanced.multiThreading.numberOfBufferBuilderThreads":
-  "NO. of buffer builder threads",
+  "バッファビルダースレッド数",
   "distanthorizons.config.client.advanced.multiThreading.numberOfBufferBuilderThreads.@tooltip":
-  "The number of threads used when building geometry data. \nCan only be between 1 and your CPU's processor count.",
+  "ジオメトリデータを構築する際に使用するスレッド数です。\n1以上で、CPUのプロセッサ数以下である必要があります。",
+
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForBufferBuilderThreads":
-  "Runtime % for buffer builder threads",
+  "バッファビルダースレッドの実行割合（%）",
 
   "distanthorizons.config.client.advanced.multiThreading.numberOfFileHandlerThreads":
-  "NO. of file handler threads",
+  "ファイルハンドラースレッド数",
   "distanthorizons.config.client.advanced.multiThreading.numberOfFileHandlerThreads.@tooltip":
-  "The number of threads used when reading/writing LOD data to/from the disk. \nCan only be between 1 and your CPU's processor count.",
+  "ディスクとの間でLODデータを読み書きする際に使用するスレッド数です。\n1以上で、CPUのプロセッサ数以下である必要があります。",
+
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForFileHandlerThreads":
-  "Runtime % for file handler threads",
+  "ファイルハンドラースレッドの実行割合（%）",
 
   "distanthorizons.config.client.advanced.multiThreading.numberOfUpdatePropagatorThreads":
-  "NO. of update propagator threads",
+  "アップデート伝播スレッド数",
   "distanthorizons.config.client.advanced.multiThreading.numberOfUpdatePropagatorThreads.@tooltip":
-  "How many threads should be used when applying LOD updates? \nAn LOD update is the operation of down-sampling a high detail LOD \ninto a lower detail one. \n\nThis config can have a much higher number of threads \nassigned and much lower run time ratio vs other thread pools \nbecause the amount of time any particular thread may run is relatively low.",
+  "LODのアップデートを適用する際に使用するスレッド数を設定します。\nLODのアップデートとは、高精細LODを低精細にダウンサンプリングする処理です。\n\nこの設定は他のスレッドプールに比べ、より多くのスレッド数を割り当てたり、\n実行割合を低くすることが可能です。\n特定のスレッドが稼働する時間が比較的短いためです。",
+
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForUpdatePropagatorThreads":
-  "Runtime % for update propagator threads",
+  "アップデート伝播スレッドの実行割合（%）",
 
   "distanthorizons.config.client.advanced.multiThreading.numberOfLodBuilderThreads":
-  "NO. of LOD builder threads",
+  "LODビルダースレッド数",
   "distanthorizons.config.client.advanced.multiThreading.numberOfLodBuilderThreads.@tooltip":
-  "The number of threads used when building LODs. \nThese threads run when terrain is generated, when \ncertain graphics settings are changed, and when moving around the world.",
+  "LODの構築に使用するスレッド数です。\nこれらのスレッドは地形生成やグラフィックス設定の変更、ワールド内の移動時に動作します。",
+
   "distanthorizons.config.client.advanced.multiThreading.runTimeRatioForLodBuilderThreads":
-  "Runtime % for LOD builder threads",
+  "LODビルダースレッドの実行割合（%）",
+
   "distanthorizons.config.client.advanced.multiThreading.enableLodBuilderThreadLimiting":
-  "Enable LOD builder thread limiting",
+  "LODビルダースレッド制限を有効化",
   "distanthorizons.config.client.advanced.multiThreading.enableLodBuilderThreadLimiting.@tooltip":
-  "Should only be disabled if deadlock occurs and LODs refuse to update. \nThis will cause CPU usage to drastically increase for the Lod Builder threads. \nNote that if a deadlock did occur restarting MC may be necessary to stop the locked threads.",
+  "LODの更新が止まってしまう問題が発生した場合にのみ、この設定を無効にしてください。\n無効にすると、LODビルダースレッドのCPU使用率が大幅に増加します。\nこの問題が発生した場合は、Minecraftを再起動してロックされた処理を解除する必要がある可能性があります。",
 
 
   "distanthorizons.config.client.advanced.debugging":
-  "Debug",
+  "デバッグ",
 
   "distanthorizons.config.client.advanced.debugging.rendererMode":
-  "Renderer Mode",
+  "レンダラーモード",
   "distanthorizons.config.client.advanced.debugging.debugRendering":
-  "Debug Rendering",
+  "デバッグレンダリング",
   "distanthorizons.config.client.advanced.debugging.debugMode.@tooltip":
   "The active debug mode.",
   "distanthorizons.config.client.advanced.debugging.renderWireframe":
@@ -514,7 +542,7 @@
 
 
   "distanthorizons.config.client.advanced.buffers":
-  "Buffers",
+  "バッファー",
   "distanthorizons.config.client.advanced.buffers.gpuUploadMethod":
   "GPU upload method",
   "distanthorizons.config.client.advanced.buffers.gpuUploadMethod.@tooltip":
@@ -531,29 +559,29 @@
 
 
   "distanthorizons.config.client.advanced.autoUpdater":
-  "Auto Updater",
+  "オートアップデーター",
   "distanthorizons.config.client.advanced.autoUpdater.enableAutoUpdater":
-  "Enable automatic updates",
+  "オートアップデートを有効にする",
   "distanthorizons.config.client.advanced.autoUpdater.enableSilentUpdates":
-  "Enable Silent Updates",
+  "サイレントアップデートを有効にする",
   "distanthorizons.config.client.advanced.autoUpdater.enableSilentUpdates.@tooltip":
-  "Automatically updates the mod when an update is available",
+  "新しいバージョンが利用可能な際に、自動でアップデートを行います。",
   "distanthorizons.config.client.advanced.autoUpdater.updateBranch":
-  "Update Branch",
+  "アップデートブランチ",
   "distanthorizons.config.client.advanced.autoUpdater.updateBranch.@tooltip":
-  "Where to download the latest update from.\n\nStable: Stable builds from Modrinth\nNightly: Nightly builds from Gitlab",
+  "最新バージョンのダウンロード先を設定します。\n\nStable: Modrinthの安定版ビルド\nNightly: GitLabのナイトリービルド",
 
 
 
   "distanthorizons.config.client.advanced.logging":
-  "Logging",
+  "ロギング",
   "distanthorizons.config.client.advanced.logging.@tooltip":
   "Controls how logging should be handled.",
 
   "distanthorizons.config.client.advanced.logging.logWorldGenEvent":
-  "World Gen Events",
+  "ワールド生成イベント",
   "distanthorizons.config.client.advanced.logging.logWorldGenPerformance":
-  "World Gen Performance",
+  "ワールド生成パフォーマンス",
   "distanthorizons.config.client.advanced.logging.logWorldGenLoadEvent":
   "World Gen Load Events",
   "distanthorizons.config.client.advanced.logging.logLodBuilderEvent":
@@ -561,7 +589,7 @@
   "distanthorizons.config.client.advanced.logging.logRendererBufferEvent":
   "Renderer Buffer Events",
   "distanthorizons.config.client.advanced.logging.logRendererGLEvent":
-  "OpenGL Events",
+  "OpenGL イベント",
   "distanthorizons.config.client.advanced.logging.logFileReadWriteEvent":
   "File Read/Write Events",
   "distanthorizons.config.client.advanced.logging.logFileSubDimEvent":
@@ -578,7 +606,7 @@
 
 
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen":
-  "Debug Config Screen",
+  "デバッグ設定画面",
 
   "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.debugConfigScreenNote":
   "This screen is to debug features of the config screen",
@@ -665,66 +693,74 @@
 
 
   "distanthorizons.config.client.resetSettingsConfirmation":
-  "Reset All Settings?",
+  "すべての設定をリセットしますか？",
 
   "distanthorizons.config.client.resetSettingsConfirmation.resetConfirmationNote":
-  "Are you sure? This cannot be undone.",
+  "本当に行いますか？この操作は取り消せません。",
   "distanthorizons.config.client.resetSettingsConfirmation.resetAllSettings":
-  "Reset All Settings",
+  "すべての設定をリセット",
 
 
 
   "distanthorizons.config.enum.EDhApiQualityPreset.CUSTOM":
-  "Custom",
+  "カスタム",
   "distanthorizons.config.enum.EDhApiQualityPreset.MINIMUM":
-  "Minimum",
+  "最低",
   "distanthorizons.config.enum.EDhApiQualityPreset.LOW":
-  "Low",
+  "低",
   "distanthorizons.config.enum.EDhApiQualityPreset.MEDIUM":
-  "Medium",
+  "中",
   "distanthorizons.config.enum.EDhApiQualityPreset.HIGH":
-  "High",
+  "高",
   "distanthorizons.config.enum.EDhApiQualityPreset.EXTREME":
-  "Extreme",
+  "極",
 
   "distanthorizons.config.enum.EDhApiThreadPreset.CUSTOM":
-  "Custom",
+  "カスタム",
   "distanthorizons.config.enum.EDhApiThreadPreset.MINIMAL_IMPACT":
-  "Minimal Impact",
+  "負荷最小",
   "distanthorizons.config.enum.EDhApiThreadPreset.LOW_IMPACT":
-  "Low Impact",
+  "負荷低",
   "distanthorizons.config.enum.EDhApiThreadPreset.BALANCED":
-  "Balanced",
+  "バランス",
   "distanthorizons.config.enum.EDhApiThreadPreset.AGGRESSIVE":
-  "Aggressive",
+  "高負荷",
   "distanthorizons.config.enum.EDhApiThreadPreset.I_PAID_FOR_THE_WHOLE_CPU":
-  "I Paid For The Whole CPU",
+  "**CPU全力使用**",
 
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.BLOCK":
-  "Block",
+  "ブロック",
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.TWO_BLOCKS":
-  "2 blocks",
+  "2ブロック",
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.FOUR_BLOCKS":
-  "4 blocks",
+  "4ブロック",
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.HALF_CHUNK":
-  "Half a chunk",
+  "半チャンク",
   "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.CHUNK":
-  "Chunk",
+  "チャンク",
+
 
   "distanthorizons.config.enum.EDhApiVerticalQuality.HEIGHT_MAP":
-  "1. Height Map",
+  "1. 高度マップ",
+
   "distanthorizons.config.enum.EDhApiVerticalQuality.LOW":
-  "2. Low",
+  "2. 低",
+
   "distanthorizons.config.enum.EDhApiVerticalQuality.MEDIUM":
-  "3. Medium",
+  "3. 中",
+
   "distanthorizons.config.enum.EDhApiVerticalQuality.HIGH":
-  "4. High",
+  "4. 高",
+
   "distanthorizons.config.enum.EDhApiVerticalQuality.VERY_HIGH":
-  "5. Very High",
+  "5. 非常に高い",
+
   "distanthorizons.config.enum.EDhApiVerticalQuality.EXTREME":
-  "6. Extreme",
+  "6. 極限",
+
   "distanthorizons.config.enum.EDhApiVerticalQuality.PIXEL_ART":
-  "7. Pixel Art",
+  "7. ピクセルアート",
+
 
   "distanthorizons.config.enum.EDhApiHorizontalQuality.LOWEST":
   "Lowest",
@@ -813,19 +849,26 @@
   "Always",
 
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.NONE":
-  "Existing Only",
+  "既存のみ",
+
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.PRE_EXISTING_ONLY":
-  "Pre-Existing Chunks only",
+  "既存のチャンクのみ",
+
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.BIOME_ONLY":
-  "Biome only",
+  "バイオームのみ",
+
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.BIOME_ONLY_SIMULATE_HEIGHT":
-  "Biome only simulate height",
+  "バイオームのみ（高さをシミュレートする）",
+
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.SURFACE":
-  "Surface",
+  "地表",
+
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.FEATURES":
-  "Features",
+  "地形の特徴",
+
   "distanthorizons.config.enum.EDhApiDistantGeneratorMode.FULL":
-  "Full",
+  "完全生成",
+
 
   "distanthorizons.config.enum.EDhApiDataCompressionMode.UNCOMPRESSED":
   "Uncompressed",
@@ -960,11 +1003,11 @@
   "Rare",
 
   "distanthorizons.config.enum.EDhApiLodShading.AUTO":
-  "Auto",
+  "オート",
   "distanthorizons.config.enum.EDhApiLodShading.ENABLED":
-  "Enabled",
+  "有効",
   "distanthorizons.config.enum.EDhApiLodShading.DISABLED":
-  "Disabled",
+  "無効",
 
   "distanthorizons.config.enum.EDhApiUpdateBranch.STABLE":
   "Stable",
